@@ -1,0 +1,1347 @@
+{
+  "status": "COMPLETED_IBM_HERON_HARDWARE",
+  "randomization_seed": 20261026,
+  "total_executions_excluding_pilot_controls": 144,
+  "total_shots_excluding_pilot_controls": 147456,
+  "executions": [
+    {
+      "order": 1,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 2,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 3,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 4,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 5,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 6,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 7,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 8,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 9,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 10,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 11,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 12,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 13,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 14,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 15,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 16,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 17,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 18,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 19,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 20,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 21,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 22,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 23,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 24,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 25,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 26,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 27,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 28,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 29,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 30,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 31,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 32,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 33,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 34,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 35,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 36,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 37,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 38,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 39,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 40,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 41,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 42,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 43,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 44,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 45,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 46,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 47,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 48,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 49,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 50,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 51,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 52,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 53,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 54,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 55,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 56,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 57,
+      "instance_id": "star_12q_s260228",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_12q_s260228.qasm"
+    },
+    {
+      "order": 58,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 59,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 60,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 61,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 62,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 63,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 64,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 65,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 66,
+      "instance_id": "qaoa_12q_s260428",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_12q_s260428.qasm"
+    },
+    {
+      "order": 67,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 68,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 69,
+      "instance_id": "qft_phase_12q_s260528",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_12q_s260528.qasm"
+    },
+    {
+      "order": 70,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 71,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 72,
+      "instance_id": "bipartite_12q_s260128",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_12q_s260128.qasm"
+    },
+    {
+      "order": 73,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 74,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 75,
+      "instance_id": "dense_12q_s260028",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_12q_s260028.qasm"
+    },
+    {
+      "order": 76,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 77,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 78,
+      "instance_id": "ising_6q_s260326",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_6q_s260326.qasm"
+    },
+    {
+      "order": 79,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 80,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 81,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 82,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 83,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 84,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 85,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 86,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 87,
+      "instance_id": "star_6q_s260226",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_6q_s260226.qasm"
+    },
+    {
+      "order": 88,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 89,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 90,
+      "instance_id": "dense_6q_s260026",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_6q_s260026.qasm"
+    },
+    {
+      "order": 91,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 92,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 93,
+      "instance_id": "qaoa_6q_s260426",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_6q_s260426.qasm"
+    },
+    {
+      "order": 94,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 95,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 96,
+      "instance_id": "bipartite_6q_s260126",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_6q_s260126.qasm"
+    },
+    {
+      "order": 97,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 98,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 99,
+      "instance_id": "ising_12q_s260328",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_12q_s260328.qasm"
+    },
+    {
+      "order": 100,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 101,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 102,
+      "instance_id": "qft_phase_6q_s260526",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_6q_s260526.qasm"
+    },
+    {
+      "order": 103,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 104,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 105,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 106,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 107,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 108,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "A",
+      "block": 2,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 109,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 110,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 111,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 112,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 113,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 114,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 115,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 116,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 117,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 118,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 119,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 120,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 121,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 122,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 123,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 124,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 125,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 126,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "B",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 127,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 128,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 129,
+      "instance_id": "dense_9q_s260027",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "dense_9q_s260027.qasm"
+    },
+    {
+      "order": 130,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 131,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 132,
+      "instance_id": "star_9q_s260227",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "star_9q_s260227.qasm"
+    },
+    {
+      "order": 133,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 134,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 135,
+      "instance_id": "bipartite_9q_s260127",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "bipartite_9q_s260127.qasm"
+    },
+    {
+      "order": 136,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 137,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 138,
+      "instance_id": "qaoa_9q_s260427",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qaoa_9q_s260427.qasm"
+    },
+    {
+      "order": 139,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 140,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 141,
+      "instance_id": "qft_phase_9q_s260527",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "qft_phase_9q_s260527.qasm"
+    },
+    {
+      "order": 142,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "prometheus_candidate",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 143,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "tket",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    },
+    {
+      "order": 144,
+      "instance_id": "ising_9q_s260327",
+      "backend_slot": "C",
+      "block": 1,
+      "pipeline": "sabre_o3",
+      "shots": 1024,
+      "input_qasm": "ising_9q_s260327.qasm"
+    }
+  ],
+  "assigned_backends": {
+    "A": "ibm_marrakesh",
+    "B": "ibm_fez",
+    "C": "ibm_kingston"
+  },
+  "completed_jobs": [
+    {
+      "job_id": "dbghgkdrd2mc73cuo0jg",
+      "backend": "ibm_marrakesh",
+      "slot": "A",
+      "block": 1,
+      "circuits": 54,
+      "shots": 55296,
+      "quantum_seconds": 17.0
+    },
+    {
+      "job_id": "dbghgroiudkc73e4gvig",
+      "backend": "ibm_marrakesh",
+      "slot": "A",
+      "block": 2,
+      "circuits": 54,
+      "shots": 55296,
+      "quantum_seconds": 17.0
+    },
+    {
+      "job_id": "dbghh7ljm0ks73egl000",
+      "backend": "ibm_fez",
+      "slot": "B",
+      "block": 1,
+      "circuits": 18,
+      "shots": 18432,
+      "quantum_seconds": 7.0
+    },
+    {
+      "job_id": "dbgjtecdgr2s73crlre0",
+      "backend": "ibm_kingston",
+      "slot": "C",
+      "block": 1,
+      "circuits": 18,
+      "shots": 18432,
+      "quantum_seconds": 7.0
+    }
+  ]
+}

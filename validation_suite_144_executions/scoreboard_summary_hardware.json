@@ -1,0 +1,1360 @@
+{
+  "mode": "LIVE_IBM_HARDWARE",
+  "generated_at_utc": "2026-10-28T00:16:06.356858+00:00",
+  "scoreboard_1_candidate_performance": [
+    {
+      "instance_id": "dense_6q_s260026",
+      "family": "dense",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.86261,
+          "block2_metric": 0.8879,
+          "mean_metric": 0.87526,
+          "block_diff": 0.02529,
+          "mean_tvd": 0.27018,
+          "native_2q": 79,
+          "depth": 159,
+          "duration_us": 6.136
+        },
+        "tket": {
+          "block1_metric": 0.70542,
+          "block2_metric": 0.6887,
+          "mean_metric": 0.69706,
+          "block_diff": 0.01672,
+          "mean_tvd": 0.44044,
+          "native_2q": 94,
+          "depth": 168,
+          "duration_us": 6.764
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.8848,
+          "block2_metric": 0.90067,
+          "mean_metric": 0.89274,
+          "block_diff": 0.01587,
+          "mean_tvd": 0.2445,
+          "native_2q": 71,
+          "depth": 141,
+          "duration_us": 5.232
+        }
+      }
+    },
+    {
+      "instance_id": "dense_9q_s260027",
+      "family": "dense",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.67205,
+          "block2_metric": 0.65816,
+          "mean_metric": 0.6651,
+          "block_diff": 0.0139,
+          "mean_tvd": 0.44119,
+          "native_2q": 210,
+          "depth": 300,
+          "duration_us": 12.208
+        },
+        "tket": {
+          "block1_metric": 0.54802,
+          "block2_metric": 0.52243,
+          "mean_metric": 0.53523,
+          "block_diff": 0.02559,
+          "mean_tvd": 0.54639,
+          "native_2q": 252,
+          "depth": 323,
+          "duration_us": 12.776
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.698,
+          "block2_metric": 0.7223,
+          "mean_metric": 0.71015,
+          "block_diff": 0.0243,
+          "mean_tvd": 0.40028,
+          "native_2q": 155,
+          "depth": 203,
+          "duration_us": 7.688
+        }
+      }
+    },
+    {
+      "instance_id": "dense_12q_s260028",
+      "family": "dense",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.20466,
+          "block2_metric": 0.21756,
+          "mean_metric": 0.21111,
+          "block_diff": 0.0129,
+          "mean_tvd": 0.73533,
+          "native_2q": 339,
+          "depth": 374,
+          "duration_us": 14.904
+        },
+        "tket": {
+          "block1_metric": 0.07972,
+          "block2_metric": 0.08918,
+          "mean_metric": 0.08445,
+          "block_diff": 0.00947,
+          "mean_tvd": 0.85641,
+          "native_2q": 619,
+          "depth": 662,
+          "duration_us": 28.504
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.22438,
+          "block2_metric": 0.25106,
+          "mean_metric": 0.23772,
+          "block_diff": 0.02667,
+          "mean_tvd": 0.70763,
+          "native_2q": 307,
+          "depth": 325,
+          "duration_us": 12.18
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_6q_s260126",
+      "family": "bipartite",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.80709,
+          "block2_metric": 0.83787,
+          "mean_metric": 0.82248,
+          "block_diff": 0.03078,
+          "mean_tvd": 0.31235,
+          "native_2q": 48,
+          "depth": 109,
+          "duration_us": 4.212
+        },
+        "tket": {
+          "block1_metric": 0.81621,
+          "block2_metric": 0.80268,
+          "mean_metric": 0.80945,
+          "block_diff": 0.01353,
+          "mean_tvd": 0.34534,
+          "native_2q": 54,
+          "depth": 106,
+          "duration_us": 3.988
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.88172,
+          "block2_metric": 0.90928,
+          "mean_metric": 0.8955,
+          "block_diff": 0.02756,
+          "mean_tvd": 0.23728,
+          "native_2q": 46,
+          "depth": 89,
+          "duration_us": 3.184
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_9q_s260127",
+      "family": "bipartite",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.69036,
+          "block2_metric": 0.7259,
+          "mean_metric": 0.70813,
+          "block_diff": 0.03554,
+          "mean_tvd": 0.38706,
+          "native_2q": 141,
+          "depth": 222,
+          "duration_us": 8.812
+        },
+        "tket": {
+          "block1_metric": 0.6606,
+          "block2_metric": 0.69128,
+          "mean_metric": 0.67594,
+          "block_diff": 0.03068,
+          "mean_tvd": 0.43403,
+          "native_2q": 227,
+          "depth": 327,
+          "duration_us": 12.128
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.71471,
+          "block2_metric": 0.7214,
+          "mean_metric": 0.71806,
+          "block_diff": 0.00669,
+          "mean_tvd": 0.37737,
+          "native_2q": 116,
+          "depth": 156,
+          "duration_us": 6.108
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_12q_s260128",
+      "family": "bipartite",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.27398,
+          "block2_metric": 0.26267,
+          "mean_metric": 0.26833,
+          "block_diff": 0.01131,
+          "mean_tvd": 0.68602,
+          "native_2q": 142,
+          "depth": 128,
+          "duration_us": 3.94
+        },
+        "tket": {
+          "block1_metric": 0.18797,
+          "block2_metric": 0.19472,
+          "mean_metric": 0.19134,
+          "block_diff": 0.00676,
+          "mean_tvd": 0.76133,
+          "native_2q": 355,
+          "depth": 348,
+          "duration_us": 13.372
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.31051,
+          "block2_metric": 0.31187,
+          "mean_metric": 0.31119,
+          "block_diff": 0.00135,
+          "mean_tvd": 0.64306,
+          "native_2q": 142,
+          "depth": 128,
+          "duration_us": 4.108
+        }
+      }
+    },
+    {
+      "instance_id": "star_6q_s260226",
+      "family": "star",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.85915,
+          "block2_metric": 0.89161,
+          "mean_metric": 0.87538,
+          "block_diff": 0.03246,
+          "mean_tvd": 0.22604,
+          "native_2q": 21,
+          "depth": 65,
+          "duration_us": 2.376
+        },
+        "tket": {
+          "block1_metric": 0.93247,
+          "block2_metric": 0.91543,
+          "mean_metric": 0.92395,
+          "block_diff": 0.01703,
+          "mean_tvd": 0.17319,
+          "native_2q": 22,
+          "depth": 63,
+          "duration_us": 1.876
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.88113,
+          "block2_metric": 0.92644,
+          "mean_metric": 0.90379,
+          "block_diff": 0.04531,
+          "mean_tvd": 0.19017,
+          "native_2q": 21,
+          "depth": 64,
+          "duration_us": 2.34
+        }
+      }
+    },
+    {
+      "instance_id": "star_9q_s260227",
+      "family": "star",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.74529,
+          "block2_metric": 0.76753,
+          "mean_metric": 0.75641,
+          "block_diff": 0.02224,
+          "mean_tvd": 0.34465,
+          "native_2q": 48,
+          "depth": 152,
+          "duration_us": 5.52
+        },
+        "tket": {
+          "block1_metric": 0.79363,
+          "block2_metric": 0.77549,
+          "mean_metric": 0.78456,
+          "block_diff": 0.01814,
+          "mean_tvd": 0.32628,
+          "native_2q": 52,
+          "depth": 139,
+          "duration_us": 5.256
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.67687,
+          "block2_metric": 0.70525,
+          "mean_metric": 0.69106,
+          "block_diff": 0.02837,
+          "mean_tvd": 0.40697,
+          "native_2q": 48,
+          "depth": 111,
+          "duration_us": 4.168
+        }
+      }
+    },
+    {
+      "instance_id": "star_12q_s260228",
+      "family": "star",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.29021,
+          "block2_metric": 0.24816,
+          "mean_metric": 0.26919,
+          "block_diff": 0.04204,
+          "mean_tvd": 0.68406,
+          "native_2q": 86,
+          "depth": 180,
+          "duration_us": 7.144
+        },
+        "tket": {
+          "block1_metric": 0.29065,
+          "block2_metric": 0.33514,
+          "mean_metric": 0.3129,
+          "block_diff": 0.04449,
+          "mean_tvd": 0.65202,
+          "native_2q": 82,
+          "depth": 182,
+          "duration_us": 7.14
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.40275,
+          "block2_metric": 0.40336,
+          "mean_metric": 0.40306,
+          "block_diff": 0.00061,
+          "mean_tvd": 0.57086,
+          "native_2q": 64,
+          "depth": 164,
+          "duration_us": 6.256
+        }
+      }
+    },
+    {
+      "instance_id": "ising_6q_s260326",
+      "family": "ising",
+      "width": 6,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.14225,
+          "block2_metric": 0.12272,
+          "mean_metric": 0.13249,
+          "block_diff": 0.01953,
+          "mean_tvd": 0.26489,
+          "native_2q": 70,
+          "depth": 225,
+          "duration_us": 8.132
+        },
+        "tket": {
+          "block1_metric": 0.26595,
+          "block2_metric": 0.24414,
+          "mean_metric": 0.25505,
+          "block_diff": 0.02181,
+          "mean_tvd": 0.49364,
+          "native_2q": 90,
+          "depth": 291,
+          "duration_us": 9.492
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.15072,
+          "block2_metric": 0.13021,
+          "mean_metric": 0.14046,
+          "block_diff": 0.02051,
+          "mean_tvd": 0.23881,
+          "native_2q": 68,
+          "depth": 215,
+          "duration_us": 7.6
+        }
+      }
+    },
+    {
+      "instance_id": "ising_9q_s260327",
+      "family": "ising",
+      "width": 9,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.18744,
+          "block2_metric": 0.17833,
+          "mean_metric": 0.18289,
+          "block_diff": 0.00911,
+          "mean_tvd": 0.48364,
+          "native_2q": 101,
+          "depth": 308,
+          "duration_us": 11.272
+        },
+        "tket": {
+          "block1_metric": 0.26014,
+          "block2_metric": 0.26644,
+          "mean_metric": 0.26329,
+          "block_diff": 0.00629,
+          "mean_tvd": 0.60552,
+          "native_2q": 90,
+          "depth": 343,
+          "duration_us": 10.164
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.11236,
+          "block2_metric": 0.15533,
+          "mean_metric": 0.13384,
+          "block_diff": 0.04297,
+          "mean_tvd": 0.40554,
+          "native_2q": 115,
+          "depth": 317,
+          "duration_us": 11.252
+        }
+      }
+    },
+    {
+      "instance_id": "ising_12q_s260328",
+      "family": "ising",
+      "width": 12,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.20015,
+          "block2_metric": 0.19771,
+          "mean_metric": 0.19893,
+          "block_diff": 0.00244,
+          "mean_tvd": 0.67864,
+          "native_2q": 72,
+          "depth": 289,
+          "duration_us": 8.928
+        },
+        "tket": {
+          "block1_metric": 0.39075,
+          "block2_metric": 0.38391,
+          "mean_metric": 0.38733,
+          "block_diff": 0.00684,
+          "mean_tvd": 0.91554,
+          "native_2q": 72,
+          "depth": 362,
+          "duration_us": 9.048
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.12805,
+          "block2_metric": 0.11357,
+          "mean_metric": 0.12081,
+          "block_diff": 0.01449,
+          "mean_tvd": 0.45736,
+          "native_2q": 72,
+          "depth": 288,
+          "duration_us": 9.144
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_6q_s260426",
+      "family": "qaoa",
+      "width": 6,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.61599,
+          "block2_metric": 0.64475,
+          "mean_metric": 0.63037,
+          "block_diff": 0.02875,
+          "mean_tvd": 0.32984,
+          "native_2q": 66,
+          "depth": 170,
+          "duration_us": 5.964
+        },
+        "tket": {
+          "block1_metric": 0.56814,
+          "block2_metric": 0.565,
+          "mean_metric": 0.56657,
+          "block_diff": 0.00315,
+          "mean_tvd": 0.61179,
+          "native_2q": 72,
+          "depth": 175,
+          "duration_us": 5.528
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.65245,
+          "block2_metric": 0.66547,
+          "mean_metric": 0.65896,
+          "block_diff": 0.01302,
+          "mean_tvd": 0.31913,
+          "native_2q": 64,
+          "depth": 199,
+          "duration_us": 5.6
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_9q_s260427",
+      "family": "qaoa",
+      "width": 9,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.62337,
+          "block2_metric": 0.63086,
+          "mean_metric": 0.62712,
+          "block_diff": 0.00749,
+          "mean_tvd": 0.40591,
+          "native_2q": 105,
+          "depth": 209,
+          "duration_us": 7.808
+        },
+        "tket": {
+          "block1_metric": 0.63843,
+          "block2_metric": 0.63078,
+          "mean_metric": 0.6346,
+          "block_diff": 0.00765,
+          "mean_tvd": 0.40004,
+          "native_2q": 139,
+          "depth": 218,
+          "duration_us": 7.848
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.63883,
+          "block2_metric": 0.65039,
+          "mean_metric": 0.64461,
+          "block_diff": 0.01156,
+          "mean_tvd": 0.37705,
+          "native_2q": 106,
+          "depth": 166,
+          "duration_us": 5.852
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_12q_s260428",
+      "family": "qaoa",
+      "width": 12,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.66132,
+          "block2_metric": 0.66351,
+          "mean_metric": 0.66241,
+          "block_diff": 0.0022,
+          "mean_tvd": 0.69433,
+          "native_2q": 138,
+          "depth": 196,
+          "duration_us": 6.92
+        },
+        "tket": {
+          "block1_metric": 0.64343,
+          "block2_metric": 0.62909,
+          "mean_metric": 0.63626,
+          "block_diff": 0.01434,
+          "mean_tvd": 0.75265,
+          "native_2q": 198,
+          "depth": 270,
+          "duration_us": 8.828
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.67548,
+          "block2_metric": 0.67755,
+          "mean_metric": 0.67651,
+          "block_diff": 0.00208,
+          "mean_tvd": 0.66703,
+          "native_2q": 138,
+          "depth": 192,
+          "duration_us": 6.968
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_6q_s260526",
+      "family": "qft_phase",
+      "width": 6,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.34863,
+          "block2_metric": 0.43262,
+          "mean_metric": 0.39062,
+          "block_diff": 0.08398,
+          "mean_tvd": 0.60937,
+          "native_2q": 58,
+          "depth": 136,
+          "duration_us": 5.076
+        },
+        "tket": {
+          "block1_metric": 0.05371,
+          "block2_metric": 0.06738,
+          "mean_metric": 0.06055,
+          "block_diff": 0.01367,
+          "mean_tvd": 0.93945,
+          "native_2q": 57,
+          "depth": 187,
+          "duration_us": 5.232
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.39453,
+          "block2_metric": 0.51172,
+          "mean_metric": 0.45312,
+          "block_diff": 0.11719,
+          "mean_tvd": 0.54687,
+          "native_2q": 46,
+          "depth": 115,
+          "duration_us": 4.136
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_9q_s260527",
+      "family": "qft_phase",
+      "width": 9,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.10547,
+          "block2_metric": 0.17285,
+          "mean_metric": 0.13916,
+          "block_diff": 0.06738,
+          "mean_tvd": 0.86084,
+          "native_2q": 175,
+          "depth": 323,
+          "duration_us": 12.088
+        },
+        "tket": {
+          "block1_metric": 0.21191,
+          "block2_metric": 0.2168,
+          "mean_metric": 0.21436,
+          "block_diff": 0.00488,
+          "mean_tvd": 0.78564,
+          "native_2q": 171,
+          "depth": 250,
+          "duration_us": 7.968
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.12305,
+          "block2_metric": 0.16699,
+          "mean_metric": 0.14502,
+          "block_diff": 0.04395,
+          "mean_tvd": 0.85498,
+          "native_2q": 145,
+          "depth": 262,
+          "duration_us": 9.832
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_12q_s260528",
+      "family": "qft_phase",
+      "width": 12,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "pipelines": {
+        "sabre_o3": {
+          "block1_metric": 0.0166,
+          "block2_metric": 0.01953,
+          "mean_metric": 0.01807,
+          "block_diff": 0.00293,
+          "mean_tvd": 0.98193,
+          "native_2q": 312,
+          "depth": 439,
+          "duration_us": 15.808
+        },
+        "tket": {
+          "block1_metric": 0.00098,
+          "block2_metric": 0.0,
+          "mean_metric": 0.00049,
+          "block_diff": 0.00098,
+          "mean_tvd": 0.99951,
+          "native_2q": 405,
+          "depth": 639,
+          "duration_us": 23.404
+        },
+        "prometheus_candidate": {
+          "block1_metric": 0.07715,
+          "block2_metric": 0.0752,
+          "mean_metric": 0.07617,
+          "block_diff": 0.00195,
+          "mean_tvd": 0.92383,
+          "native_2q": 219,
+          "depth": 351,
+          "duration_us": 12.404
+        }
+      }
+    }
+  ],
+  "scoreboard_2_selection_performance": [
+    {
+      "instance_id": "dense_6q_s260026",
+      "family": "dense",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.87526,
+          "block1_metric": 0.86261,
+          "block2_metric": 0.8879
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.69706,
+          "block1_metric": 0.70542,
+          "block2_metric": 0.6887
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.89274,
+          "block1_metric": 0.8848,
+          "block2_metric": 0.90067
+        }
+      }
+    },
+    {
+      "instance_id": "dense_9q_s260027",
+      "family": "dense",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.6651,
+          "block1_metric": 0.67205,
+          "block2_metric": 0.65816
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.53523,
+          "block1_metric": 0.54802,
+          "block2_metric": 0.52243
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.71015,
+          "block1_metric": 0.698,
+          "block2_metric": 0.7223
+        }
+      }
+    },
+    {
+      "instance_id": "dense_12q_s260028",
+      "family": "dense",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.21111,
+          "block1_metric": 0.20466,
+          "block2_metric": 0.21756
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.08445,
+          "block1_metric": 0.07972,
+          "block2_metric": 0.08918
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.23772,
+          "block1_metric": 0.22438,
+          "block2_metric": 0.25106
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_6q_s260126",
+      "family": "bipartite",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.82248,
+          "block1_metric": 0.80709,
+          "block2_metric": 0.83787
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.80945,
+          "block1_metric": 0.81621,
+          "block2_metric": 0.80268
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.8955,
+          "block1_metric": 0.88172,
+          "block2_metric": 0.90928
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_9q_s260127",
+      "family": "bipartite",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.70813,
+          "block1_metric": 0.69036,
+          "block2_metric": 0.7259
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.67594,
+          "block1_metric": 0.6606,
+          "block2_metric": 0.69128
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.71806,
+          "block1_metric": 0.71471,
+          "block2_metric": 0.7214
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_12q_s260128",
+      "family": "bipartite",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.26833,
+          "block1_metric": 0.27398,
+          "block2_metric": 0.26267
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.19134,
+          "block1_metric": 0.18797,
+          "block2_metric": 0.19472
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.31119,
+          "block1_metric": 0.31051,
+          "block2_metric": 0.31187
+        }
+      }
+    },
+    {
+      "instance_id": "star_6q_s260226",
+      "family": "star",
+      "width": 6,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.87538,
+          "block1_metric": 0.85915,
+          "block2_metric": 0.89161
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.92395,
+          "block1_metric": 0.93247,
+          "block2_metric": 0.91543
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.90379,
+          "block1_metric": 0.88113,
+          "block2_metric": 0.92644
+        }
+      }
+    },
+    {
+      "instance_id": "star_9q_s260227",
+      "family": "star",
+      "width": 9,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.75641,
+          "block1_metric": 0.74529,
+          "block2_metric": 0.76753
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.78456,
+          "block1_metric": 0.79363,
+          "block2_metric": 0.77549
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.69106,
+          "block1_metric": 0.67687,
+          "block2_metric": 0.70525
+        }
+      }
+    },
+    {
+      "instance_id": "star_12q_s260228",
+      "family": "star",
+      "width": 12,
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.26919,
+          "block1_metric": 0.29021,
+          "block2_metric": 0.24816
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.3129,
+          "block1_metric": 0.29065,
+          "block2_metric": 0.33514
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.40306,
+          "block1_metric": 0.40275,
+          "block2_metric": 0.40336
+        }
+      }
+    },
+    {
+      "instance_id": "ising_6q_s260326",
+      "family": "ising",
+      "width": 6,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.13249,
+          "block1_metric": 0.14225,
+          "block2_metric": 0.12272
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.25505,
+          "block1_metric": 0.26595,
+          "block2_metric": 0.24414
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.14046,
+          "block1_metric": 0.15072,
+          "block2_metric": 0.13021
+        }
+      }
+    },
+    {
+      "instance_id": "ising_9q_s260327",
+      "family": "ising",
+      "width": 9,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.18289,
+          "block1_metric": 0.18744,
+          "block2_metric": 0.17833
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.26329,
+          "block1_metric": 0.26014,
+          "block2_metric": 0.26644
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.13384,
+          "block1_metric": 0.11236,
+          "block2_metric": 0.15533
+        }
+      }
+    },
+    {
+      "instance_id": "ising_12q_s260328",
+      "family": "ising",
+      "width": 12,
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.19893,
+          "block1_metric": 0.20015,
+          "block2_metric": 0.19771
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.38733,
+          "block1_metric": 0.39075,
+          "block2_metric": 0.38391
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.12081,
+          "block1_metric": 0.12805,
+          "block2_metric": 0.11357
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_6q_s260426",
+      "family": "qaoa",
+      "width": 6,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.63037,
+          "block1_metric": 0.61599,
+          "block2_metric": 0.64475
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.56657,
+          "block1_metric": 0.56814,
+          "block2_metric": 0.565
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.65896,
+          "block1_metric": 0.65245,
+          "block2_metric": 0.66547
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_9q_s260427",
+      "family": "qaoa",
+      "width": 9,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.62712,
+          "block1_metric": 0.62337,
+          "block2_metric": 0.63086
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.6346,
+          "block1_metric": 0.63843,
+          "block2_metric": 0.63078
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.64461,
+          "block1_metric": 0.63883,
+          "block2_metric": 0.65039
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_12q_s260428",
+      "family": "qaoa",
+      "width": 12,
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.66241,
+          "block1_metric": 0.66132,
+          "block2_metric": 0.66351
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.63626,
+          "block1_metric": 0.64343,
+          "block2_metric": 0.62909
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.67651,
+          "block1_metric": 0.67548,
+          "block2_metric": 0.67755
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_6q_s260526",
+      "family": "qft_phase",
+      "width": 6,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.39062,
+          "block1_metric": 0.34863,
+          "block2_metric": 0.43262
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.06055,
+          "block1_metric": 0.05371,
+          "block2_metric": 0.06738
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.45312,
+          "block1_metric": 0.39453,
+          "block2_metric": 0.51172
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_9q_s260527",
+      "family": "qft_phase",
+      "width": 9,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.13916,
+          "block1_metric": 0.10547,
+          "block2_metric": 0.17285
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.21436,
+          "block1_metric": 0.21191,
+          "block2_metric": 0.2168
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.14502,
+          "block1_metric": 0.12305,
+          "block2_metric": 0.16699
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_12q_s260528",
+      "family": "qft_phase",
+      "width": 12,
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "mean_metric": 0.01807,
+          "block1_metric": 0.0166,
+          "block2_metric": 0.01953
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "mean_metric": 0.00049,
+          "block1_metric": 0.00098,
+          "block2_metric": 0.0
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "mean_metric": 0.07617,
+          "block1_metric": 0.07715,
+          "block2_metric": 0.0752
+        }
+      }
+    }
+  ],
+  "scoreboard_3_dispatch_performance": [
+    {
+      "instance_id": "dense_9q_s260027",
+      "family": "dense",
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.79366,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.67205,
+          "p_full_metric": 0.698
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.65862,
+          "p_full_metric": 0.76531
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.75062,
+          "p_full_metric": 0.79366
+        }
+      }
+    },
+    {
+      "instance_id": "bipartite_9q_s260127",
+      "family": "bipartite",
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.7918,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.69036,
+          "p_full_metric": 0.71471
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.75802,
+          "p_full_metric": 0.76571
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.80341,
+          "p_full_metric": 0.7918
+        }
+      }
+    },
+    {
+      "instance_id": "star_9q_s260227",
+      "family": "star",
+      "primary_metric": "squared_hellinger_fidelity",
+      "lower_is_better": false,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.82762,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.74529,
+          "p_full_metric": 0.67687
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.81302,
+          "p_full_metric": 0.82012
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.80164,
+          "p_full_metric": 0.82762
+        }
+      }
+    },
+    {
+      "instance_id": "ising_9q_s260327",
+      "family": "ising",
+      "primary_metric": "absolute_magnetization_error",
+      "lower_is_better": true,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.09196,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.18744,
+          "p_full_metric": 0.11236
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.25125,
+          "p_full_metric": 0.16726
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.15533,
+          "p_full_metric": 0.09196
+        }
+      }
+    },
+    {
+      "instance_id": "qaoa_9q_s260427",
+      "family": "qaoa",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "lower_is_better": false,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.66667,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.62337,
+          "p_full_metric": 0.63883
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.66081,
+          "p_full_metric": 0.67424
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.66642,
+          "p_full_metric": 0.66667
+        }
+      }
+    },
+    {
+      "instance_id": "qft_phase_9q_s260527",
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "lower_is_better": false,
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_metric_block1": 0.34863,
+      "fixed_backends_block1": {
+        "A": {
+          "backend_name": "ibm_marrakesh",
+          "sabre_o3_metric": 0.10547,
+          "p_full_metric": 0.12305
+        },
+        "B": {
+          "backend_name": "ibm_fez",
+          "sabre_o3_metric": 0.21191,
+          "p_full_metric": 0.28711
+        },
+        "C": {
+          "backend_name": "ibm_kingston",
+          "sabre_o3_metric": 0.31738,
+          "p_full_metric": 0.34863
+        }
+      }
+    }
+  ]
+}

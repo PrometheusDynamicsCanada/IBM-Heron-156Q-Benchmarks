@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "generator_qiskit_version": "2.6.1",
+  "purpose": "18-instance (6Q, 9Q, 12Q) multi-QPU hardware benchmark suite across 6 circuit families",
+  "main_backend_slots": [
+    "A"
+  ],
+  "broadcast_backend_slots": [
+    "B",
+    "C"
+  ],
+  "pipelines": [
+    "sabre_o3",
+    "tket",
+    "prometheus_candidate"
+  ],
+  "shots_per_execution": 1024,
+  "main_blocks": 2,
+  "main_executions": 108,
+  "broadcast_executions": 36,
+  "planned_shots_excluding_pilot_controls": 147456,
+  "instances": [
+    {
+      "family": "dense",
+      "width": 6,
+      "seed": 260026,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "instance_id": "dense_6q_s260026",
+      "qasm_file": "dense_6q_s260026.qasm",
+      "qasm_sha256": "071ae6214d761477a7ef5f5c1d98104e1210560e7932d6c15e34b8f0f9f296b6",
+      "reference_file": "dense_6q_s260026.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "dense",
+      "width": 9,
+      "seed": 260027,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "instance_id": "dense_9q_s260027",
+      "qasm_file": "dense_9q_s260027.qasm",
+      "qasm_sha256": "f1e30fb44f1b3fbc85d7a33fa70ee08e82a89fd641094e94adcfa79f4c0913ca",
+      "reference_file": "dense_9q_s260027.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "dense",
+      "width": 12,
+      "seed": 260028,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "instance_id": "dense_12q_s260028",
+      "qasm_file": "dense_12q_s260028.qasm",
+      "qasm_sha256": "16c6d0576284106363ef80a1e91aedbd79b079a386c85a5cd826fbe9071c9384",
+      "reference_file": "dense_12q_s260028.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "bipartite",
+      "width": 6,
+      "seed": 260126,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "instance_id": "bipartite_6q_s260126",
+      "qasm_file": "bipartite_6q_s260126.qasm",
+      "qasm_sha256": "27f6747fe2d3ff1ea7444d407eb0f02ad30defe6413210cb16b5b364daf32f96",
+      "reference_file": "bipartite_6q_s260126.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "bipartite",
+      "width": 9,
+      "seed": 260127,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "instance_id": "bipartite_9q_s260127",
+      "qasm_file": "bipartite_9q_s260127.qasm",
+      "qasm_sha256": "022eed791704a4ebb7db73dd216e4f261586c1cbcd6844b17d528b291aa7cd42",
+      "reference_file": "bipartite_9q_s260127.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "bipartite",
+      "width": 12,
+      "seed": 260128,
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "instance_id": "bipartite_12q_s260128",
+      "qasm_file": "bipartite_12q_s260128.qasm",
+      "qasm_sha256": "d8975d56a52ef7e6dbb4c37830aa625fc6459e9430bd6cd502c397a2b4c945c8",
+      "reference_file": "bipartite_12q_s260128.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "star",
+      "width": 6,
+      "seed": 260226,
+      "edges": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "instance_id": "star_6q_s260226",
+      "qasm_file": "star_6q_s260226.qasm",
+      "qasm_sha256": "3585ab553088800e50b359f541e7491cc7c98696c7a54ef0eea06f6e4b7a6107",
+      "reference_file": "star_6q_s260226.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "star",
+      "width": 9,
+      "seed": 260227,
+      "edges": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "instance_id": "star_9q_s260227",
+      "qasm_file": "star_9q_s260227.qasm",
+      "qasm_sha256": "a0586a7d62cadfbafcf2ede77386188f639984b79c3cb105a5fccd2cb6f21b58",
+      "reference_file": "star_9q_s260227.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "star",
+      "width": 12,
+      "seed": 260228,
+      "edges": [
+        [
+          10,
+          0
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "instance_id": "star_12q_s260228",
+      "qasm_file": "star_12q_s260228.qasm",
+      "qasm_sha256": "86f5058993036d6f7b7d84fa4bdb1130e11ab069f17390d87d0b800c9a7f8b76",
+      "reference_file": "star_12q_s260228.npz",
+      "primary_metric": "squared_hellinger_fidelity",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "ising",
+      "width": 6,
+      "seed": 260326,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "trotter_steps": 3,
+      "zz_angle": 0.47,
+      "x_angle": 0.31,
+      "instance_id": "ising_6q_s260326",
+      "qasm_file": "ising_6q_s260326.qasm",
+      "qasm_sha256": "af23696d389d11467a66a2b49a2866dc70ee94bb15525ec7bcdbc5c820eba52d",
+      "reference_file": "ising_6q_s260326.npz",
+      "primary_metric": "absolute_magnetization_error",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "ising",
+      "width": 9,
+      "seed": 260327,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "trotter_steps": 3,
+      "zz_angle": 0.47,
+      "x_angle": 0.31,
+      "instance_id": "ising_9q_s260327",
+      "qasm_file": "ising_9q_s260327.qasm",
+      "qasm_sha256": "ca5d06540eb8ab703dc0a840310a00045256a93c2ae166062381b8bca7581536",
+      "reference_file": "ising_9q_s260327.npz",
+      "primary_metric": "absolute_magnetization_error",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "ising",
+      "width": 12,
+      "seed": 260328,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "trotter_steps": 3,
+      "zz_angle": 0.47,
+      "x_angle": 0.31,
+      "instance_id": "ising_12q_s260328",
+      "qasm_file": "ising_12q_s260328.qasm",
+      "qasm_sha256": "fce11dca10e66c0efc1c4d23d71133505bb1a0db03e9820e8ceb8983d108dbcc",
+      "reference_file": "ising_12q_s260328.npz",
+      "primary_metric": "absolute_magnetization_error",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qaoa",
+      "width": 6,
+      "seed": 260426,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "gammas": [
+        0.41,
+        0.67
+      ],
+      "betas": [
+        0.29,
+        0.53
+      ],
+      "parameters": "Fixed shared parameters; no hardware tuning",
+      "exact_maxcut": 9,
+      "success_cut_threshold": 9,
+      "instance_id": "qaoa_6q_s260426",
+      "qasm_file": "qaoa_6q_s260426.qasm",
+      "qasm_sha256": "a25696a32971c1e3a5f262d0839b8acb32dc707c5f4ab052a688310171a386d2",
+      "reference_file": "qaoa_6q_s260426.npz",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qaoa",
+      "width": 9,
+      "seed": 260427,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "gammas": [
+        0.41,
+        0.67
+      ],
+      "betas": [
+        0.29,
+        0.53
+      ],
+      "parameters": "Fixed shared parameters; no hardware tuning",
+      "exact_maxcut": 12,
+      "success_cut_threshold": 11,
+      "instance_id": "qaoa_9q_s260427",
+      "qasm_file": "qaoa_9q_s260427.qasm",
+      "qasm_sha256": "f64bc9faeb0b6257511d97aa2d8392e1c635a9c0135894617dc63806afc772f1",
+      "reference_file": "qaoa_9q_s260427.npz",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qaoa",
+      "width": 12,
+      "seed": 260428,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "gammas": [
+        0.41,
+        0.67
+      ],
+      "betas": [
+        0.29,
+        0.53
+      ],
+      "parameters": "Fixed shared parameters; no hardware tuning",
+      "exact_maxcut": 16,
+      "success_cut_threshold": 15,
+      "instance_id": "qaoa_12q_s260428",
+      "qasm_file": "qaoa_12q_s260428.qasm",
+      "qasm_sha256": "925d90644c35d456038ecee53c183682effaaeec12386f8010d7b4790afcb153",
+      "reference_file": "qaoa_12q_s260428.npz",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qft_phase",
+      "width": 6,
+      "seed": 260526,
+      "target_integer": 33,
+      "target_bitstring": "100001",
+      "boundary": "Preserve state-preparation/transform boundary in all pipelines",
+      "instance_id": "qft_phase_6q_s260526",
+      "qasm_file": "qft_phase_6q_s260526.qasm",
+      "qasm_sha256": "50a9a2216382ee8f3265e46532215e7fc024daaf44dec49946563371d750d2b5",
+      "reference_file": "qft_phase_6q_s260526.npz",
+      "primary_metric": "target_success_probability",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qft_phase",
+      "width": 9,
+      "seed": 260527,
+      "target_integer": 447,
+      "target_bitstring": "110111111",
+      "boundary": "Preserve state-preparation/transform boundary in all pipelines",
+      "instance_id": "qft_phase_9q_s260527",
+      "qasm_file": "qft_phase_9q_s260527.qasm",
+      "qasm_sha256": "21b7784761c72b30a48ccbfc161951ef0678acb549846f1ba7bfe1db0fa56b84",
+      "reference_file": "qft_phase_9q_s260527.npz",
+      "primary_metric": "target_success_probability",
+      "broadcast": true,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    },
+    {
+      "family": "qft_phase",
+      "width": 12,
+      "seed": 260528,
+      "target_integer": 4026,
+      "target_bitstring": "111110111010",
+      "boundary": "Preserve state-preparation/transform boundary in all pipelines",
+      "instance_id": "qft_phase_12q_s260528",
+      "qasm_file": "qft_phase_12q_s260528.qasm",
+      "qasm_sha256": "fcc54e290839c910ab724bfaa0d4ff225eae289986ab6418d028d6527b422fb8",
+      "reference_file": "qft_phase_12q_s260528.npz",
+      "primary_metric": "target_success_probability",
+      "broadcast": false,
+      "bit_order": "q[n-1]...q[0]; logical measurement order"
+    }
+  ]
+}

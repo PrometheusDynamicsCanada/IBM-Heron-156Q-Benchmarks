@@ -1,0 +1,818 @@
+{
+  "job_id": "dbc9vq7i0auc73dugmjg",
+  "qpu": "ibm_fez",
+  "wall_seconds": 542.23,
+  "quantum_seconds": null,
+  "results": [
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_1,2",
+      "qubits": 3,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 11,
+        "tket_depth": 11,
+        "prometheus_depth": 11,
+        "sabre_2q": 2,
+        "tket_2q": 2,
+        "prometheus_2q": 2
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9963188739284599,
+          "tvd": 0.02338033879498992,
+          "hop": 0.94580078125,
+          "xeb": 1.7468488052489657,
+          "entropy": 1.896411792349746,
+          "ideal_entropy": 1.8340260597879368
+        },
+        "tket": {
+          "fidelity": 0.9979104762896951,
+          "tvd": 0.02536662377500079,
+          "hop": 0.9443359375,
+          "xeb": 1.7292117939057703,
+          "entropy": 1.9149287007464644,
+          "ideal_entropy": 1.8340260597879368
+        },
+        "prometheus": {
+          "fidelity": 0.9968940425611753,
+          "tvd": 0.02535915636458138,
+          "hop": 0.95361328125,
+          "xeb": 1.7316376272401683,
+          "entropy": 1.8988172364527836,
+          "ideal_entropy": 1.8340260597879368
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_2,2",
+      "qubits": 4,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 16,
+        "tket_depth": 26,
+        "prometheus_depth": 16,
+        "sabre_2q": 6,
+        "tket_2q": 10,
+        "prometheus_2q": 6
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9807203599041131,
+          "tvd": 0.07984005366963369,
+          "hop": 0.93896484375,
+          "xeb": 2.7821559165175715,
+          "entropy": 2.7739306146661185,
+          "ideal_entropy": 2.434987052450089
+        },
+        "tket": {
+          "fidelity": 0.969475919823624,
+          "tvd": 0.09802499796603126,
+          "hop": 0.9228515625,
+          "xeb": 2.685476905534739,
+          "entropy": 2.867743033392337,
+          "ideal_entropy": 2.434987052450089
+        },
+        "prometheus": {
+          "fidelity": 0.9790777141285378,
+          "tvd": 0.07948833874159196,
+          "hop": 0.935546875,
+          "xeb": 2.8193309167559426,
+          "entropy": 2.7571792231137855,
+          "ideal_entropy": 2.434987052450089
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_2,3",
+      "qubits": 5,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 26,
+        "tket_depth": 31,
+        "prometheus_depth": 21,
+        "sabre_2q": 12,
+        "tket_2q": 15,
+        "prometheus_2q": 10
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9555854423078378,
+          "tvd": 0.12229483998116258,
+          "hop": 0.92236328125,
+          "xeb": 5.246090013854687,
+          "entropy": 3.4029094771360784,
+          "ideal_entropy": 2.789472120835935
+        },
+        "tket": {
+          "fidelity": 0.7931512217227398,
+          "tvd": 0.3386622278835204,
+          "hop": 0.85693359375,
+          "xeb": 3.5754723533239927,
+          "entropy": 3.836667322443627,
+          "ideal_entropy": 2.789472120835935
+        },
+        "prometheus": {
+          "fidelity": 0.9649533950305829,
+          "tvd": 0.08174697470329695,
+          "hop": 0.93603515625,
+          "xeb": 5.794399678600168,
+          "entropy": 3.1259972234375946,
+          "ideal_entropy": 2.789472120835935
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_3,3",
+      "qubits": 6,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 35,
+        "tket_depth": 58,
+        "prometheus_depth": 33,
+        "sabre_2q": 17,
+        "tket_2q": 27,
+        "prometheus_2q": 17
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9564523575303657,
+          "tvd": 0.13617636348227002,
+          "hop": 0.9423828125,
+          "xeb": 6.77968078431013,
+          "entropy": 4.146433394428657,
+          "ideal_entropy": 3.600683290062222
+        },
+        "tket": {
+          "fidelity": 0.9192232080567426,
+          "tvd": 0.19615908659063902,
+          "hop": 0.90673828125,
+          "xeb": 6.486292332075876,
+          "entropy": 4.266446971942197,
+          "ideal_entropy": 3.600683290062222
+        },
+        "prometheus": {
+          "fidelity": 0.9501906380661391,
+          "tvd": 0.13904796974244998,
+          "hop": 0.9306640625,
+          "xeb": 6.678122437357385,
+          "entropy": 4.147195449795142,
+          "ideal_entropy": 3.600683290062222
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_3,4",
+      "qubits": 7,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 53,
+        "tket_depth": 59,
+        "prometheus_depth": 43,
+        "sabre_2q": 30,
+        "tket_2q": 36,
+        "prometheus_2q": 23
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9338409863976974,
+          "tvd": 0.1459937832117529,
+          "hop": 0.9306640625,
+          "xeb": 11.49326100863586,
+          "entropy": 4.788762997216304,
+          "ideal_entropy": 4.055204476242545
+        },
+        "tket": {
+          "fidelity": 0.924511266591122,
+          "tvd": 0.14927427858439143,
+          "hop": 0.92626953125,
+          "xeb": 11.780961285131475,
+          "entropy": 4.751665024608901,
+          "ideal_entropy": 4.055204476242545
+        },
+        "prometheus": {
+          "fidelity": 0.9422786216906353,
+          "tvd": 0.1357175816741598,
+          "hop": 0.9521484375,
+          "xeb": 11.726053378554239,
+          "entropy": 4.643657695123265,
+          "ideal_entropy": 4.055204476242545
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_4,4",
+      "qubits": 8,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 67,
+        "tket_depth": 112,
+        "prometheus_depth": 61,
+        "sabre_2q": 44,
+        "tket_2q": 57,
+        "prometheus_2q": 33
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.874688847955229,
+          "tvd": 0.22993826195093783,
+          "hop": 0.91552734375,
+          "xeb": 12.158462688289632,
+          "entropy": 5.910501066938133,
+          "ideal_entropy": 4.985165235885829
+        },
+        "tket": {
+          "fidelity": 0.8498329659885209,
+          "tvd": 0.25670277607853065,
+          "hop": 0.91162109375,
+          "xeb": 11.543555126824092,
+          "entropy": 5.944862509710718,
+          "ideal_entropy": 4.985165235885829
+        },
+        "prometheus": {
+          "fidelity": 0.899738661120384,
+          "tvd": 0.1993158413288924,
+          "hop": 0.93359375,
+          "xeb": 11.771546983571838,
+          "entropy": 5.830954849980812,
+          "ideal_entropy": 4.985165235885829
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_4,5",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 72,
+        "tket_depth": 167,
+        "prometheus_depth": 65,
+        "sabre_2q": 48,
+        "tket_2q": 89,
+        "prometheus_2q": 41
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8512524838954376,
+          "tvd": 0.24302430529461402,
+          "hop": 0.912109375,
+          "xeb": 17.580132278954714,
+          "entropy": 6.591212730137573,
+          "ideal_entropy": 5.585953008897147
+        },
+        "tket": {
+          "fidelity": 0.3033742917866691,
+          "tvd": 0.7267134652888042,
+          "hop": 0.75390625,
+          "xeb": 1.3318049781285661,
+          "entropy": 7.746689830759743,
+          "ideal_entropy": 5.585953008897147
+        },
+        "prometheus": {
+          "fidelity": 0.8284808337900583,
+          "tvd": 0.26233397247643575,
+          "hop": 0.88525390625,
+          "xeb": 17.133009528948612,
+          "entropy": 6.631043835925642,
+          "ideal_entropy": 5.585953008897147
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_5,5",
+      "qubits": 10,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 89,
+        "tket_depth": 168,
+        "prometheus_depth": 68,
+        "sabre_2q": 69,
+        "tket_2q": 133,
+        "prometheus_2q": 50
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.809171857351335,
+          "tvd": 0.29144437136502893,
+          "hop": 0.9453125,
+          "xeb": 16.14717136892556,
+          "entropy": 7.496540050723665,
+          "ideal_entropy": 6.585953002203867
+        },
+        "tket": {
+          "fidelity": 0.7309324798290663,
+          "tvd": 0.38091729376095784,
+          "hop": 0.9169921875,
+          "xeb": 12.499440536907867,
+          "entropy": 7.912776535477506,
+          "ideal_entropy": 6.585953002203867
+        },
+        "prometheus": {
+          "fidelity": 0.8064977460076637,
+          "tvd": 0.27622985370127673,
+          "hop": 0.93408203125,
+          "xeb": 17.47359825566607,
+          "entropy": 7.356225837282751,
+          "ideal_entropy": 6.585953002203867
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_5,6",
+      "qubits": 11,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 104,
+        "tket_depth": 149,
+        "prometheus_depth": 79,
+        "sabre_2q": 78,
+        "tket_2q": 144,
+        "prometheus_2q": 62
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7620067888024549,
+          "tvd": 0.30031359315137857,
+          "hop": 0.93115234375,
+          "xeb": 32.68848005555466,
+          "entropy": 7.698767028064761,
+          "ideal_entropy": 6.819191295673746
+        },
+        "tket": {
+          "fidelity": 0.5703500065182788,
+          "tvd": 0.49655657558190835,
+          "hop": 0.85400390625,
+          "xeb": 19.752649673646214,
+          "entropy": 8.57960328135835,
+          "ideal_entropy": 6.819191295673746
+        },
+        "prometheus": {
+          "fidelity": 0.7729277121962614,
+          "tvd": 0.28930936699155907,
+          "hop": 0.927734375,
+          "xeb": 31.71883133237489,
+          "entropy": 7.7199524892952125,
+          "ideal_entropy": 6.819191295673746
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_6,6",
+      "qubits": 12,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 107,
+        "tket_depth": 224,
+        "prometheus_depth": 75,
+        "sabre_2q": 84,
+        "tket_2q": 199,
+        "prometheus_2q": 71
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.6667854383473273,
+          "tvd": 0.37221152370967603,
+          "hop": 0.912109375,
+          "xeb": 43.48281264923074,
+          "entropy": 8.40593313709405,
+          "ideal_entropy": 7.420152288335916
+        },
+        "tket": {
+          "fidelity": 0.39766287716849413,
+          "tvd": 0.6422505978177151,
+          "hop": 0.8525390625,
+          "xeb": 16.363091608978245,
+          "entropy": 9.49177577828665,
+          "ideal_entropy": 7.420152288335916
+        },
+        "prometheus": {
+          "fidelity": 0.690940149948251,
+          "tvd": 0.34944875754444527,
+          "hop": 0.9169921875,
+          "xeb": 43.69894621789259,
+          "entropy": 8.444440730029152,
+          "ideal_entropy": 7.420152288335916
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "bipartite",
+      "label": "Bipartite K_6,7",
+      "qubits": 13,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 113,
+        "tket_depth": 239,
+        "prometheus_depth": 82,
+        "sabre_2q": 102,
+        "tket_2q": 230,
+        "prometheus_2q": 83
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.5572035793252655,
+          "tvd": 0.4537205947705818,
+          "hop": 0.8671875,
+          "xeb": 64.30469184872187,
+          "entropy": 9.040320159319787,
+          "ideal_entropy": 7.774637356721754
+        },
+        "tket": {
+          "fidelity": 0.4010720980955572,
+          "tvd": 0.6120030569101362,
+          "hop": 0.8642578125,
+          "xeb": 40.77995402426148,
+          "entropy": 9.549923235100122,
+          "ideal_entropy": 7.774637356721754
+        },
+        "prometheus": {
+          "fidelity": 0.6395943013911882,
+          "tvd": 0.37791712825072,
+          "hop": 0.88720703125,
+          "xeb": 77.4639760299988,
+          "entropy": 8.68254319217357,
+          "ideal_entropy": 7.774637356721754
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 5,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 78,
+        "tket_depth": 93,
+        "prometheus_depth": 67,
+        "sabre_2q": 23,
+        "tket_2q": 26,
+        "prometheus_2q": 20
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.986220277777156,
+          "tvd": 0.08662639813510814,
+          "hop": 0.7783203125,
+          "xeb": 0.644124004357443,
+          "entropy": 4.609910348352612,
+          "ideal_entropy": 4.459022315290799
+        },
+        "tket": {
+          "fidelity": 0.9908143841194338,
+          "tvd": 0.07002326137441199,
+          "hop": 0.79248046875,
+          "xeb": 0.7088247077990952,
+          "entropy": 4.540975712739402,
+          "ideal_entropy": 4.459022315290799
+        },
+        "prometheus": {
+          "fidelity": 0.9852209405377712,
+          "tvd": 0.08880234390000358,
+          "hop": 0.783203125,
+          "xeb": 0.6505532030369459,
+          "entropy": 4.588502725216585,
+          "ideal_entropy": 4.459022315290799
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 6,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 103,
+        "tket_depth": 112,
+        "prometheus_depth": 75,
+        "sabre_2q": 31,
+        "tket_2q": 43,
+        "prometheus_2q": 28
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9631795059635193,
+          "tvd": 0.15493602427802272,
+          "hop": 0.76416015625,
+          "xeb": 0.8953122926348853,
+          "entropy": 5.594670750797858,
+          "ideal_entropy": 5.289011813831318
+        },
+        "tket": {
+          "fidelity": 0.9550481348859867,
+          "tvd": 0.16906249413887084,
+          "hop": 0.74951171875,
+          "xeb": 0.9069874940982605,
+          "entropy": 5.573113664865518,
+          "ideal_entropy": 5.289011813831318
+        },
+        "prometheus": {
+          "fidelity": 0.9712648391663167,
+          "tvd": 0.1252588016094678,
+          "hop": 0.80224609375,
+          "xeb": 1.0701416725654358,
+          "entropy": 5.429666946547501,
+          "ideal_entropy": 5.289011813831318
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 7,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 106,
+        "tket_depth": 161,
+        "prometheus_depth": 90,
+        "sabre_2q": 36,
+        "tket_2q": 56,
+        "prometheus_2q": 37
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9377327912105787,
+          "tvd": 0.17370054726848672,
+          "hop": 0.77294921875,
+          "xeb": 0.7476057731733254,
+          "entropy": 6.535286704621159,
+          "ideal_entropy": 6.3506378638309045
+        },
+        "tket": {
+          "fidelity": 0.9289360568508239,
+          "tvd": 0.19085783065676687,
+          "hop": 0.7451171875,
+          "xeb": 0.6750211029433195,
+          "entropy": 6.601989038379875,
+          "ideal_entropy": 6.3506378638309045
+        },
+        "prometheus": {
+          "fidelity": 0.94360303712151,
+          "tvd": 0.17163678564948892,
+          "hop": 0.76513671875,
+          "xeb": 0.7509869833806369,
+          "entropy": 6.556408458699767,
+          "ideal_entropy": 6.3506378638309045
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 8,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 121,
+        "tket_depth": 178,
+        "prometheus_depth": 111,
+        "sabre_2q": 42,
+        "tket_2q": 61,
+        "prometheus_2q": 45
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.9016413345885657,
+          "tvd": 0.22230683354478342,
+          "hop": 0.76171875,
+          "xeb": 0.9987833738263441,
+          "entropy": 7.490863585365202,
+          "ideal_entropy": 7.156024921951201
+        },
+        "tket": {
+          "fidelity": 0.8439422386047954,
+          "tvd": 0.3019199515982418,
+          "hop": 0.6904296875,
+          "xeb": 0.7802010520052285,
+          "entropy": 7.580306413832854,
+          "ideal_entropy": 7.156024921951201
+        },
+        "prometheus": {
+          "fidelity": 0.9301929713524099,
+          "tvd": 0.18118298264906701,
+          "hop": 0.7890625,
+          "xeb": 1.1629883903366234,
+          "entropy": 7.403831909648461,
+          "ideal_entropy": 7.156024921951201
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 155,
+        "tket_depth": 204,
+        "prometheus_depth": 133,
+        "sabre_2q": 56,
+        "tket_2q": 80,
+        "prometheus_2q": 56
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8546959514784275,
+          "tvd": 0.27455274485495385,
+          "hop": 0.69580078125,
+          "xeb": 0.5438931551353736,
+          "entropy": 8.577201129795892,
+          "ideal_entropy": 8.363137299458316
+        },
+        "tket": {
+          "fidelity": 0.7594100907340412,
+          "tvd": 0.3747118487405452,
+          "hop": 0.587890625,
+          "xeb": 0.23427252305776447,
+          "entropy": 8.648681568857358,
+          "ideal_entropy": 8.363137299458316
+        },
+        "prometheus": {
+          "fidelity": 0.8753722512296962,
+          "tvd": 0.2404263298997537,
+          "hop": 0.74169921875,
+          "xeb": 0.7320284517017934,
+          "entropy": 8.472437754173598,
+          "ideal_entropy": 8.363137299458316
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 10,
+      "parity": "EVEN",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 163,
+        "tket_depth": 184,
+        "prometheus_depth": 142,
+        "sabre_2q": 53,
+        "tket_2q": 55,
+        "prometheus_2q": 55
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7551949890141663,
+          "tvd": 0.3297758106996814,
+          "hop": 0.755859375,
+          "xeb": 1.296556812614643,
+          "entropy": 9.102616111623206,
+          "ideal_entropy": 8.964180646002454
+        },
+        "tket": {
+          "fidelity": 0.5680660392574877,
+          "tvd": 0.5108982065790747,
+          "hop": 0.60986328125,
+          "xeb": 0.3567415685998032,
+          "entropy": 9.265015660297031,
+          "ideal_entropy": 8.964180646002454
+        },
+        "prometheus": {
+          "fidelity": 0.7344290499421926,
+          "tvd": 0.3629393964559778,
+          "hop": 0.765625,
+          "xeb": 1.1913145620554961,
+          "entropy": 9.08877335713188,
+          "ideal_entropy": 8.964180646002454
+        }
+      }
+    },
+    {
+      "job_id": "dbc9vq7i0auc73dugmjg",
+      "qpu": "ibm_fez",
+      "pillar": "Pillar1_OddEven_Sweep",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut Bounded-ZZ",
+      "qubits": 11,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 165,
+        "tket_depth": 202,
+        "prometheus_depth": 165,
+        "sabre_2q": 53,
+        "tket_2q": 53,
+        "prometheus_2q": 53
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.6160389571879229,
+          "tvd": 0.41935858279912586,
+          "hop": 0.75439453125,
+          "xeb": 1.0114059870969498,
+          "entropy": 9.827232250582709,
+          "ideal_entropy": 10.11992823265976
+        },
+        "tket": {
+          "fidelity": 0.43231032141090575,
+          "tvd": 0.5697505429404186,
+          "hop": 0.56103515625,
+          "xeb": 0.1743061411036504,
+          "entropy": 9.925129471904429,
+          "ideal_entropy": 10.11992823265976
+        },
+        "prometheus": {
+          "fidelity": 0.6320257469713576,
+          "tvd": 0.41628825994483626,
+          "hop": 0.7490234375,
+          "xeb": 1.0256790608902362,
+          "entropy": 9.860002883712921,
+          "ideal_entropy": 10.11992823265976
+        }
+      }
+    }
+  ]
+}
