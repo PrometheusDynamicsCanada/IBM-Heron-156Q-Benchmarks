@@ -1,0 +1,441 @@
+{
+  "mode": "LIVE_IBM_HARDWARE",
+  "commitment_timestamp_utc": "2026-10-27T21:32:00.033179+00:00",
+  "main_portfolio_commitments": {
+    "dense_6q_s260026": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "65cb100ebf19486b4c069f446c09107def95b12ceff41986f333b83c109d4ea5"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "bbae193e7800dbaedf11a5e75f06028aba7c428c94a329ade77f290b7b7042d2"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "dd5bbc90b89d4836c458eadc4d0dee6d81d6bd3b907bd3fa941c05467e3277ab"
+        }
+      }
+    },
+    "dense_9q_s260027": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "3152a1f1962dfee8ed700f99b37e51a7b6499a30f90ec681b5da48f51b6535ca"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "3962ae434ba815ff16b3a7f31a456a45893065b753c92ce8359c6f20c808a06c"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "38d8a319b315641a43f03816b55d895df4c757550a23136c5d942ac686a65776"
+        }
+      }
+    },
+    "dense_12q_s260028": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "b67ea9547e413d4967e016a6e50addff0cbb4eb04b5affc7022d6226515de3ed"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "9e0ee252f4709b56043fba4953b80c7ae9e26d8f2cfd8915941302d2eb643002"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "ee77c53885402fcbebe037cd683971f1634086e49ea680676df7534775010378"
+        }
+      }
+    },
+    "bipartite_6q_s260126": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "50a3886a8a8e8cef3293f42def20c8b3fea908478b88c927de3e93938a0bef3d"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "66892d9cb1a2e2faf210b1e37f79080941969464a6858b0c899dc37eb5e5b989"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "5c6e21a2198313d5e99c5e8ca88cd6fe45a099967567e23f060f44445b350c47"
+        }
+      }
+    },
+    "bipartite_9q_s260127": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "e344bbb254036781e03de3e7af165c68437b1c159ad7a3a4d4bc3b1738972720"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "d2a8f2df7330b37ac0eb1774ebfcb1f13690f16df6f84ca938e83ccada388eab"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "feaf039157307fa3999882533360edf28c8a19cf8e86f5e929c4aa10deb3f58a"
+        }
+      }
+    },
+    "bipartite_12q_s260128": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "29d78916491672126d930debe589f4e8ac494d3eea536916312d355645c9c80a"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "827527ce5338f3bb9888cd5e037ce4ace9df0aeb9520dfc2cd3d38f0a273e06d"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "183c255c35b4c5c318c4a8967f4fef9a7dc2c9750e105730c96e0140256ac8c3"
+        }
+      }
+    },
+    "star_6q_s260226": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "1f38968bbefcf057ba43322e67fd69f090a58adb8a7b2105f144d6504f8936e0"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "68c27c6dba12dcee5b128567ca0f4ce2368a51827512a88ea79678db0e1ef104"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "de29523467e26909386eafc0fd4a96330dcd6372f3204b7d3abe149dc7d4f860"
+        }
+      }
+    },
+    "star_9q_s260227": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "ce0feb4c8cecb9ea26e06b0f07454d25baee2152232efbe1a937fca044c815f9"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "dce2728bfa84c72c9df7120e8c46127bffee354c5860f1ba17253b9ebbd3fc6d"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "3409b138527d833dc492d8374dc1ad80a9e52b56cca9a4f09c9f0f205828ce36"
+        }
+      }
+    },
+    "star_12q_s260228": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "9c188f8846e5a6ec124b87cd519d8136c05b6e4e48e70194e438ba458bdf7126"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "924a1307909a4032343a12a7857de9e02de157ba6fe2a4446ae0348d56e00781"
+        }
+      }
+    },
+    "ising_6q_s260326": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "9be2a68c2cccdf64f575cfdfef98eb48a4577595a7893dfbcfadc258d8f462ac"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "3f780157b4258fd71e7603a9f28febcbc59772e33274a2cb0a1594d83a59e5b5"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "04aecd09303f394337c6a8b2d115953fc19a4d3903aa5c6691521dddde9d489b"
+        }
+      }
+    },
+    "ising_9q_s260327": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "cc979c7e7bdeb9e68d9cc2053c8548c46891e3f521e44a011d648b6ce702136e"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "b86ebe20f4acc5645a17c47c85eb523d89805a3864acda0d4a7142251b7fd0a8"
+        }
+      }
+    },
+    "ising_12q_s260328": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "2d77e575c730fad1f00e89d2513ca000c8922f29a471d0fe6dd6a943ff663aa0"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "6ef94e741ef415a9cef70c5cc3aed44af44f14203ee33683aa226d87e4367dc6"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "2d576c40fa6f0d4701d2dd3256ecae509a3f4bc69fd6bd907f1bdda706b74aec"
+        }
+      }
+    },
+    "qaoa_6q_s260426": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "e22ad07e63e19419f2ec9daa93fe8c350d4595c43b792193a45466b83f426ed6"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "52f667dcfdb506b8dea7558e1eb5490bbf6db61b1a5e4d3b964e1dbcee2eaf8a"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "24bbbcb11dcfdde791b8cf95a12b94efc588d66f945ccd007331035509b23a74"
+        }
+      }
+    },
+    "qaoa_9q_s260427": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "05216098fffc4cebd9d925e71c296b9417a90da7d233447e9d6fd6c165928126"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "8bacaae4113a2a3981283ba8771ad506518e82a7dc3a0c84c9e31d97df78a9dd"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "54a674ab401c3584d335946abb22b6748bd26deb5ec8dd92db135b7fb4cac7c4"
+        }
+      }
+    },
+    "qaoa_12q_s260428": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f4fc186a53e286e220479ca4d711a4e6f8dfcb252515e833b74ab41f60d0def5"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "aa1187aa2f34f41fd1b1fb2b770a0a5661a15246565d3632bd2fde429dcc8b7a"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "4b005bb67187647aebe821d458c8ed8c0ecb4ad313e08c3df7f764f3317fb18a"
+        }
+      }
+    },
+    "qft_phase_6q_s260526": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "68caf9719c187b023f248efb341374b0fa520a780c7d7d083cba5a39c668dd6c"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "0377d6f02267f98d64907eced7de8bbc3c163fe9a5284f032e8fc885aebe5389"
+        }
+      }
+    },
+    "qft_phase_9q_s260527": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "3b4f5ea4436f4b417f11a03324ea1df024f82744c6d4285397442939c8675569"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "dadb9af48572c0bf10c6a636c8bee39fe3356c3409df71da1d5d5a70de658eec"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "41d4b99e99e8e09b75596a171bc1cf7e29c10018b4e62187e138c89faac9f932"
+        }
+      }
+    },
+    "qft_phase_12q_s260528": {
+      "backend_slot": "A",
+      "backend_name": "ibm_marrakesh",
+      "calibration_timestamp": "2026-10-27T18:03:46-03:00",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "policies": {
+        "S": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "135f2ec9a703f8df2edee433c4b7ea66db541b8eddeb26c5d2bcff2342b9f3de"
+        },
+        "T": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "56f101b2678ca1c64cd21ceb9e7ce0703204e9b33b0d279c75a761ec0ce6185a"
+        },
+        "P-full": {
+          "chosen_pipeline": "prometheus_candidate",
+          "chosen_sha256": "b0d18ea81ac61cf2b2334a0105f92aeaacead36ab3e7196701a4bc473363dc65"
+        }
+      }
+    }
+  },
+  "broadcast_dispatch_commitments": {
+    "dense_9q_s260027": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "828ca1c05416a9b3e494c0869732139e2e1f319830a25fe6ff47c87a99afe449",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    },
+    "bipartite_9q_s260127": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "24358c33c1df3b39bced64e1db0b2aa2f0edaf2bce577228fffd2b9c6fc151cf",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    },
+    "star_9q_s260227": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "6e77cd0523fb7d6e34ea39d449e2ef7266da4a6758aa178e7d8b1233cc92316f",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    },
+    "ising_9q_s260327": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "da41b4ce34f2c2c471f9cfda7dd3e7334a9ca545b37efb67ee675c675057e799",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    },
+    "qaoa_9q_s260427": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "f23f37a7afb895e9b0c6eea8d43f52989b1a19611afce21ee5f49d42d234c5a3",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    },
+    "qft_phase_9q_s260527": {
+      "committed_backend_slot": "C",
+      "committed_backend_name": "ibm_kingston",
+      "committed_pipeline": "prometheus_candidate",
+      "committed_sha256": "e80cc58b2046db27f400fa43e68e19cc26dfb608cf81c757a177bbc5fc7cc3f5",
+      "commitment_timestamp": "2026-10-27T21:32:00.033179+00:00",
+      "available_calibration_timestamps": {
+        "A": "2026-10-27T18:03:46-03:00",
+        "B": "2026-10-27T18:12:37-03:00",
+        "C": "2026-10-27T18:15:47-03:00"
+      }
+    }
+  },
+  "commitment_ledger_sha256": "b6c46eef2f0381956dec30e9b67822707603d8e04e53f1d77ecf3afb33779218"
+}

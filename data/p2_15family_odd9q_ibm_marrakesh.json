@@ -1,0 +1,683 @@
+{
+  "job_id": "dbcacds24mrc73cj776g",
+  "qpu": "ibm_marrakesh",
+  "wall_seconds": 1207.17,
+  "quantum_seconds": null,
+  "results": [
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "dense",
+      "label": "Dense All-to-All (K_9)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 138,
+        "tket_depth": 165,
+        "prometheus_depth": 118,
+        "sabre_2q": 82,
+        "tket_2q": 123,
+        "prometheus_2q": 76
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.6471425639036456,
+          "tvd": 0.4496442635319081,
+          "hop": 0.73388671875,
+          "xeb": 9.495854554218415,
+          "entropy": 7.858984469036066,
+          "ideal_entropy": 5.585953008897149
+        },
+        "tket": {
+          "fidelity": 0.609580251755581,
+          "tvd": 0.45838182650897535,
+          "hop": 0.74951171875,
+          "xeb": 9.271140627956644,
+          "entropy": 7.422936272354191,
+          "ideal_entropy": 5.585953008897149
+        },
+        "prometheus": {
+          "fidelity": 0.6401794167528059,
+          "tvd": 0.46188647631353685,
+          "hop": 0.7705078125,
+          "xeb": 9.097204981776002,
+          "entropy": 7.7554779356840635,
+          "ideal_entropy": 5.585953008897149
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "star",
+      "label": "Star Graph (Hub Stress)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 72,
+        "tket_depth": 99,
+        "prometheus_depth": 80,
+        "sabre_2q": 30,
+        "tket_2q": 31,
+        "prometheus_2q": 28
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.5044418601781938,
+          "tvd": 0.4936523437500002,
+          "hop": 0.50634765625,
+          "xeb": 128.62500000000006,
+          "entropy": 4.052856734498188,
+          "ideal_entropy": 0.9999999999999998
+        },
+        "tket": {
+          "fidelity": 0.588895591140475,
+          "tvd": 0.4077148437500002,
+          "hop": 0.59228515625,
+          "xeb": 150.62500000000006,
+          "entropy": 3.4785888470153816,
+          "ideal_entropy": 0.9999999999999998
+        },
+        "prometheus": {
+          "fidelity": 0.6358875750809102,
+          "tvd": 0.3564453125000002,
+          "hop": 0.6435546875,
+          "xeb": 163.75000000000006,
+          "entropy": 3.052962331307928,
+          "ideal_entropy": 0.9999999999999998
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "bipartite",
+      "label": "Bipartite Asymmetric (K_4,5)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 72,
+        "tket_depth": 167,
+        "prometheus_depth": 65,
+        "sabre_2q": 48,
+        "tket_2q": 89,
+        "prometheus_2q": 41
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7349053160002743,
+          "tvd": 0.3695301058954636,
+          "hop": 0.833984375,
+          "xeb": 12.52365947848886,
+          "entropy": 7.255262326799716,
+          "ideal_entropy": 5.585953008897147
+        },
+        "tket": {
+          "fidelity": 0.732959141116024,
+          "tvd": 0.3919852321058356,
+          "hop": 0.86669921875,
+          "xeb": 10.101461732492215,
+          "entropy": 7.417823765374787,
+          "ideal_entropy": 5.585953008897147
+        },
+        "prometheus": {
+          "fidelity": 0.7451942111473742,
+          "tvd": 0.36710962457265717,
+          "hop": 0.833984375,
+          "xeb": 11.77144809601041,
+          "entropy": 7.346109692340888,
+          "ideal_entropy": 5.585953008897147
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "sparse",
+      "label": "Sparse Periodic Odd Ring",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 86,
+        "tket_depth": 102,
+        "prometheus_depth": 100,
+        "sabre_2q": 27,
+        "tket_2q": 33,
+        "prometheus_2q": 41
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8979726519874103,
+          "tvd": 0.24109705354402944,
+          "hop": 0.9931640625,
+          "xeb": 17.879173662310304,
+          "entropy": 5.996796693999279,
+          "ideal_entropy": 5.585953008897152
+        },
+        "tket": {
+          "fidelity": 0.8874311356831881,
+          "tvd": 0.2624316822645467,
+          "hop": 0.986328125,
+          "xeb": 16.720366412015704,
+          "entropy": 6.248839533324285,
+          "ideal_entropy": 5.585953008897152
+        },
+        "prometheus": {
+          "fidelity": 0.9104621338141444,
+          "tvd": 0.19682985105683143,
+          "hop": 0.984375,
+          "xeb": 18.122219333673968,
+          "entropy": 6.130691776061899,
+          "ideal_entropy": 5.585953008897152
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "grid2d",
+      "label": "2D Lattice Ising Trotter",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 79,
+        "tket_depth": 119,
+        "prometheus_depth": 77,
+        "sabre_2q": 41,
+        "tket_2q": 51,
+        "prometheus_2q": 40
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8904405766925875,
+          "tvd": 0.24045824899831778,
+          "hop": 0.97900390625,
+          "xeb": 17.374966604366087,
+          "entropy": 6.261019858851576,
+          "ideal_entropy": 5.585953008897154
+        },
+        "tket": {
+          "fidelity": 0.8747610289043624,
+          "tvd": 0.27021967378947753,
+          "hop": 0.9677734375,
+          "xeb": 15.356582330451324,
+          "entropy": 6.476244410451797,
+          "ideal_entropy": 5.585953008897154
+        },
+        "prometheus": {
+          "fidelity": 0.8968202432609045,
+          "tvd": 0.23029508025522302,
+          "hop": 0.9736328125,
+          "xeb": 16.125355452494382,
+          "entropy": 6.429394776930056,
+          "ideal_entropy": 5.585953008897154
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "qft",
+      "label": "Quantum Fourier Transform",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 177,
+        "tket_depth": 324,
+        "prometheus_depth": 238,
+        "sabre_2q": 87,
+        "tket_2q": 106,
+        "prometheus_2q": 85
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8822072583029383,
+          "tvd": 0.2470703125,
+          "hop": 0.48193359375,
+          "xeb": -2.220446049250313e-15,
+          "entropy": 8.714674219113647,
+          "ideal_entropy": 8.999999999999998
+        },
+        "tket": {
+          "fidelity": 0.730660849625195,
+          "tvd": 0.37548828124999983,
+          "hop": 0.515625,
+          "xeb": -2.220446049250313e-15,
+          "entropy": 8.336421352534243,
+          "ideal_entropy": 8.999999999999998
+        },
+        "prometheus": {
+          "fidelity": 0.903225940809491,
+          "tvd": 0.22070312500000006,
+          "hop": 0.4970703125,
+          "xeb": -2.220446049250313e-15,
+          "entropy": 8.756564927955681,
+          "ideal_entropy": 8.999999999999998
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "iqft",
+      "label": "Inverse QFT",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 204,
+        "tket_depth": 266,
+        "prometheus_depth": 177,
+        "sabre_2q": 85,
+        "tket_2q": 142,
+        "prometheus_2q": 82
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7190975923529852,
+          "tvd": 0.4011370457514498,
+          "hop": 0.7724609375,
+          "xeb": 1.6895601073654989,
+          "entropy": 8.26166158968009,
+          "ideal_entropy": 7.266130362548535
+        },
+        "tket": {
+          "fidelity": 0.47791231581027127,
+          "tvd": 0.599140009405721,
+          "hop": 0.54736328125,
+          "xeb": 0.37109599993402864,
+          "entropy": 8.607777204318857,
+          "ideal_entropy": 7.266130362548535
+        },
+        "prometheus": {
+          "fidelity": 0.8182539959570138,
+          "tvd": 0.29420089977888764,
+          "hop": 0.8515625,
+          "xeb": 2.607952124543397,
+          "entropy": 7.879891026242857,
+          "ideal_entropy": 7.266130362548535
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "grover",
+      "label": "Grover Diffusion & Oracle",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 163,
+        "tket_depth": 244,
+        "prometheus_depth": 163,
+        "sabre_2q": 52,
+        "tket_2q": 83,
+        "prometheus_2q": 52
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8342588886704256,
+          "tvd": 0.3047556466187408,
+          "hop": 0.490234375,
+          "xeb": -0.009793727417613862,
+          "entropy": 8.760026637835757,
+          "ideal_entropy": 8.810135875284177
+        },
+        "tket": {
+          "fidelity": 0.7857841401692166,
+          "tvd": 0.33738899335766265,
+          "hop": 0.49267578125,
+          "xeb": -0.007345295563210508,
+          "entropy": 8.641319517250844,
+          "ideal_entropy": 8.810135875284177
+        },
+        "prometheus": {
+          "fidelity": 0.8391346098929341,
+          "tvd": 0.3081595641599343,
+          "hop": 0.49169921875,
+          "xeb": -0.008324668304972027,
+          "entropy": 8.756611107353159,
+          "ideal_entropy": 8.810135875284177
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "bv",
+      "label": "Bernstein-Vazirani Oracle",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 36,
+        "tket_depth": 67,
+        "prometheus_depth": 56,
+        "sabre_2q": 15,
+        "tket_2q": 23,
+        "prometheus_2q": 19
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7141113281249981,
+          "tvd": 0.28271484374999867,
+          "hop": 0.990234375,
+          "xeb": 182.6249999999995,
+          "entropy": 2.93876048427072,
+          "ideal_entropy": 1.000000000000001
+        },
+        "tket": {
+          "fidelity": 0.5063418881560243,
+          "tvd": 0.49365234374999867,
+          "hop": 0.9560546875,
+          "xeb": 128.62499999999966,
+          "entropy": 4.271121167145147,
+          "ideal_entropy": 1.000000000000001
+        },
+        "prometheus": {
+          "fidelity": 0.5106506767204495,
+          "tvd": 0.48925781249999867,
+          "hop": 0.90380859375,
+          "xeb": 129.74999999999966,
+          "entropy": 4.287168579460208,
+          "ideal_entropy": 1.000000000000001
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "qaoa",
+      "label": "QAOA MaxCut (3-Regular)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 160,
+        "tket_depth": 187,
+        "prometheus_depth": 162,
+        "sabre_2q": 47,
+        "tket_2q": 51,
+        "prometheus_2q": 49
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8123971042432891,
+          "tvd": 0.317462995292467,
+          "hop": 0.7705078125,
+          "xeb": 0.9526374742662358,
+          "entropy": 8.274562909363796,
+          "ideal_entropy": 8.075284149768665
+        },
+        "tket": {
+          "fidelity": 0.8726420805972023,
+          "tvd": 0.24988281042958513,
+          "hop": 0.8466796875,
+          "xeb": 1.1836391173992844,
+          "entropy": 8.133602377124662,
+          "ideal_entropy": 8.075284149768665
+        },
+        "prometheus": {
+          "fidelity": 0.8919609989768066,
+          "tvd": 0.21929554691867711,
+          "hop": 0.81591796875,
+          "xeb": 1.150054285213789,
+          "entropy": 8.267615965678536,
+          "ideal_entropy": 8.075284149768665
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "qaoa_bounded",
+      "label": "QAOA MaxCut (Bounded-ZZ)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 155,
+        "tket_depth": 204,
+        "prometheus_depth": 132,
+        "sabre_2q": 56,
+        "tket_2q": 80,
+        "prometheus_2q": 52
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8634407848850961,
+          "tvd": 0.25898396614690716,
+          "hop": 0.71044921875,
+          "xeb": 0.6844084541076305,
+          "entropy": 8.503034731616161,
+          "ideal_entropy": 8.363137299458316
+        },
+        "tket": {
+          "fidelity": 0.6490829622674732,
+          "tvd": 0.4659387430775798,
+          "hop": 0.5546875,
+          "xeb": 0.16062575859839034,
+          "entropy": 8.441081518467533,
+          "ideal_entropy": 8.363137299458316
+        },
+        "prometheus": {
+          "fidelity": 0.8259350915883088,
+          "tvd": 0.3078374590692776,
+          "hop": 0.650390625,
+          "xeb": 0.4323663991186759,
+          "entropy": 8.62565194316351,
+          "ideal_entropy": 8.363137299458316
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "vqe",
+      "label": "VQE Hardware-Efficient (SU2)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 123,
+        "tket_depth": 146,
+        "prometheus_depth": 92,
+        "sabre_2q": 49,
+        "tket_2q": 45,
+        "prometheus_2q": 36
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8410095609072188,
+          "tvd": 0.28967080065475154,
+          "hop": 0.80810546875,
+          "xeb": 3.5325501534220933,
+          "entropy": 7.962021692669812,
+          "ideal_entropy": 7.289775303087963
+        },
+        "tket": {
+          "fidelity": 0.8059687927104273,
+          "tvd": 0.3112053810499762,
+          "hop": 0.82470703125,
+          "xeb": 3.865436721526347,
+          "entropy": 7.742304019627219,
+          "ideal_entropy": 7.289775303087963
+        },
+        "prometheus": {
+          "fidelity": 0.8564974196940718,
+          "tvd": 0.2776921027671695,
+          "hop": 0.83544921875,
+          "xeb": 3.3820760490219897,
+          "entropy": 7.90542608730228,
+          "ideal_entropy": 7.289775303087963
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "qv",
+      "label": "Quantum Volume (Odd Brickwall)",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 44,
+        "tket_depth": 52,
+        "prometheus_depth": 44,
+        "sabre_2q": 32,
+        "tket_2q": 32,
+        "prometheus_2q": 32
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.8662067355703617,
+          "tvd": 0.2291984087994085,
+          "hop": 0.9267578125,
+          "xeb": 6.518497098299845,
+          "entropy": 7.1807249375606235,
+          "ideal_entropy": 6.720807745536773
+        },
+        "tket": {
+          "fidelity": 0.5746049408569064,
+          "tvd": 0.5688176471956286,
+          "hop": 0.8779296875,
+          "xeb": 2.530062231071657,
+          "entropy": 7.417035800849601,
+          "ideal_entropy": 6.720807745536773
+        },
+        "prometheus": {
+          "fidelity": 0.8674128247616525,
+          "tvd": 0.22623274917020128,
+          "hop": 0.93603515625,
+          "xeb": 6.8991030576925185,
+          "entropy": 7.069352609906063,
+          "ideal_entropy": 6.720807745536773
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "ghz",
+      "label": "GHZ Multipartite Cascade",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 28,
+        "tket_depth": 36,
+        "prometheus_depth": 28,
+        "sabre_2q": 8,
+        "tket_2q": 8,
+        "prometheus_2q": 8
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.7255777227157103,
+          "tvd": 0.2744140624999999,
+          "hop": 0.7255859375,
+          "xeb": 184.74999999999997,
+          "entropy": 2.880925273338602,
+          "ideal_entropy": 1.0
+        },
+        "tket": {
+          "fidelity": 0.16007572642069273,
+          "tvd": 0.8344726562499999,
+          "hop": 0.16552734375,
+          "xeb": 41.374999999999986,
+          "entropy": 5.053192869273184,
+          "ideal_entropy": 1.0
+        },
+        "prometheus": {
+          "fidelity": 0.7114069298099696,
+          "tvd": 0.2885742187499999,
+          "hop": 0.71142578125,
+          "xeb": 181.12499999999997,
+          "entropy": 2.937653994316829,
+          "ideal_entropy": 1.0
+        }
+      }
+    },
+    {
+      "job_id": "dbcacds24mrc73cj776g",
+      "qpu": "ibm_marrakesh",
+      "pillar": "Experiment2_15Family_Odd9Q",
+      "family_key": "wstate",
+      "label": "W-State Excitation Cascade",
+      "qubits": 9,
+      "parity": "ODD",
+      "shots": 2048,
+      "quantum_seconds_batch": null,
+      "structural": {
+        "sabre_depth": 54,
+        "tket_depth": 47,
+        "prometheus_depth": 53,
+        "sabre_2q": 16,
+        "tket_2q": 16,
+        "prometheus_2q": 16
+      },
+      "observables": {
+        "sabre": {
+          "fidelity": 0.6096245916756836,
+          "tvd": 0.39086388751102275,
+          "hop": 0.7568359375,
+          "xeb": 244.0677352017195,
+          "entropy": 3.3672247317196247,
+          "ideal_entropy": 0.5734748722503685
+        },
+        "tket": {
+          "fidelity": 0.17719925959402913,
+          "tvd": 0.822423218419312,
+          "hop": 0.5205078125,
+          "xeb": 74.38576595568782,
+          "entropy": 5.089005795859283,
+          "ideal_entropy": 0.5734748722503685
+        },
+        "prometheus": {
+          "fidelity": 0.605185846093598,
+          "tvd": 0.3945551904210757,
+          "hop": 0.75146484375,
+          "xeb": 245.13251832561718,
+          "entropy": 3.373061629599542,
+          "ideal_entropy": 0.5734748722503685
+        }
+      }
+    }
+  ]
+}

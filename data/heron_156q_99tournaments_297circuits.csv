@@ -1,0 +1,100 @@
+experiment,job_id,qpu,family_key,label,qubits,parity,shots,sabre_depth,tket_depth,prometheus_depth,sabre_2q,tket_2q,prometheus_2q,sabre_fidelity,tket_fidelity,prometheus_fidelity,sabre_tvd,tket_tvd,prometheus_tvd,sabre_hop,tket_hop,prometheus_hop
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_1,2",3,ODD,2048,11,11,11,2,2,2,0.99632,0.99791,0.99689,0.02338,0.02537,0.02536,0.9458,0.94434,0.95361
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_2,2",4,EVEN,2048,16,26,16,6,10,6,0.98072,0.96948,0.97908,0.07984,0.09802,0.07949,0.93896,0.92285,0.93555
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_2,3",5,ODD,2048,26,31,21,12,15,10,0.95559,0.79315,0.96495,0.12229,0.33866,0.08175,0.92236,0.85693,0.93604
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_3,3",6,EVEN,2048,35,58,33,17,27,17,0.95645,0.91922,0.95019,0.13618,0.19616,0.13905,0.94238,0.90674,0.93066
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_3,4",7,ODD,2048,53,59,43,30,36,23,0.93384,0.92451,0.94228,0.14599,0.14927,0.13572,0.93066,0.92627,0.95215
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_4,4",8,EVEN,2048,67,112,61,44,57,33,0.87469,0.84983,0.89974,0.22994,0.2567,0.19932,0.91553,0.91162,0.93359
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_4,5",9,ODD,2048,72,167,65,48,89,41,0.85125,0.30337,0.82848,0.24302,0.72671,0.26233,0.91211,0.75391,0.88525
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_5,5",10,EVEN,2048,89,168,68,69,133,50,0.80917,0.73093,0.8065,0.29144,0.38092,0.27623,0.94531,0.91699,0.93408
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_5,6",11,ODD,2048,104,149,79,78,144,62,0.76201,0.57035,0.77293,0.30031,0.49656,0.28931,0.93115,0.854,0.92773
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_6,6",12,EVEN,2048,107,224,75,84,199,71,0.66679,0.39766,0.69094,0.37221,0.64225,0.34945,0.91211,0.85254,0.91699
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,bipartite,"Bipartite K_6,7",13,ODD,2048,113,239,82,102,230,83,0.5572,0.40107,0.63959,0.45372,0.612,0.37792,0.86719,0.86426,0.88721
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,5,ODD,2048,78,93,67,23,26,20,0.98622,0.99081,0.98522,0.08663,0.07002,0.0888,0.77832,0.79248,0.7832
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,6,EVEN,2048,103,112,75,31,43,28,0.96318,0.95505,0.97126,0.15494,0.16906,0.12526,0.76416,0.74951,0.80225
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,7,ODD,2048,106,161,90,36,56,37,0.93773,0.92894,0.9436,0.1737,0.19086,0.17164,0.77295,0.74512,0.76514
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,8,EVEN,2048,121,178,111,42,61,45,0.90164,0.84394,0.93019,0.22231,0.30192,0.18118,0.76172,0.69043,0.78906
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,9,ODD,2048,155,204,133,56,80,56,0.8547,0.75941,0.87537,0.27455,0.37471,0.24043,0.6958,0.58789,0.7417
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,10,EVEN,2048,163,184,142,53,55,55,0.75519,0.56807,0.73443,0.32978,0.5109,0.36294,0.75586,0.60986,0.76562
+Pillar1_OddEven_Sweep,dbc9vq7i0auc73dugmjg,ibm_fez,qaoa_bounded,QAOA MaxCut Bounded-ZZ,11,ODD,2048,165,202,165,53,53,53,0.61604,0.43231,0.63203,0.41936,0.56975,0.41629,0.75439,0.56104,0.74902
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_1,2",3,ODD,2048,11,11,11,2,2,2,0.99503,0.75695,0.99394,0.03378,0.41291,0.03808,0.93945,0.67773,0.93555
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_2,2",4,EVEN,2048,16,26,16,6,10,6,0.97041,0.94355,0.97706,0.09639,0.14815,0.07545,0.90479,0.89355,0.92529
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_2,3",5,ODD,2048,26,31,21,12,15,10,0.96291,0.92277,0.96703,0.09859,0.20548,0.08474,0.93848,0.90967,0.93896
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_3,3",6,EVEN,2048,35,58,35,17,27,17,0.94617,0.57159,0.9336,0.12326,0.54613,0.1402,0.91895,0.70459,0.90967
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_3,4",7,ODD,2048,49,59,44,30,36,23,0.91032,0.91659,0.91287,0.17699,0.17396,0.15744,0.91504,0.94775,0.90723
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_4,4",8,EVEN,2048,62,112,56,44,57,35,0.89249,0.87676,0.91617,0.20056,0.2324,0.16242,0.92432,0.93799,0.94434
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_4,5",9,ODD,2048,72,167,65,48,89,41,0.83135,0.74061,0.85169,0.25536,0.36764,0.24363,0.89209,0.83008,0.91943
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_5,5",10,EVEN,2048,89,168,64,69,133,51,0.81738,0.76803,0.83414,0.27023,0.34789,0.2483,0.92773,0.92676,0.95361
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_5,6",11,ODD,2048,100,149,90,78,144,67,0.62313,0.66718,0.68325,0.42961,0.41869,0.37022,0.86914,0.88818,0.8999
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_6,6",12,EVEN,2048,108,224,76,84,199,71,0.61381,0.56647,0.61464,0.45145,0.48388,0.43984,0.90186,0.91357,0.89795
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,bipartite,"Bipartite K_6,7",13,ODD,2048,113,239,84,102,230,84,0.57176,0.4172,0.52375,0.46063,0.59843,0.49641,0.87695,0.81104,0.86035
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,5,ODD,2048,78,93,72,23,26,22,0.98317,0.90742,0.98644,0.08785,0.24304,0.08785,0.77637,0.65137,0.77148
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,6,EVEN,2048,102,112,75,31,43,28,0.97864,0.83133,0.98343,0.10877,0.35336,0.09287,0.79443,0.62354,0.81787
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,7,ODD,2048,106,161,99,36,56,40,0.95975,0.7415,0.92295,0.12715,0.39888,0.18784,0.78955,0.59229,0.73389
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,8,EVEN,2048,120,178,120,42,61,42,0.88119,0.81762,0.89269,0.2417,0.32665,0.23302,0.7583,0.66162,0.75391
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,9,ODD,2048,155,204,132,56,80,52,0.87213,0.64324,0.84806,0.25058,0.46106,0.28544,0.72461,0.54248,0.68408
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,10,EVEN,2048,160,184,142,53,55,55,0.71734,0.67075,0.68947,0.38262,0.42619,0.3984,0.70068,0.64502,0.69189
+Pillar1_OddEven_Sweep,dbc9olfi0auc73dug6ig,ibm_marrakesh,qaoa_bounded,QAOA MaxCut Bounded-ZZ,11,ODD,2048,167,202,165,53,53,53,0.59949,0.60633,0.60924,0.44292,0.43823,0.4291,0.70605,0.70166,0.73535
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_1,2",3,ODD,2048,11,11,10,2,2,2,0.99524,0.99566,0.99829,0.03367,0.04302,0.03083,0.93701,0.94482,0.95605
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_2,2",4,EVEN,2048,16,26,16,6,10,6,0.97646,0.97759,0.97236,0.07449,0.07272,0.08006,0.92578,0.92334,0.91602
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_2,3",5,ODD,2048,26,31,24,12,15,10,0.987,0.93663,0.98394,0.06592,0.19395,0.06946,0.96777,0.92578,0.9624
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_3,3",6,EVEN,2048,35,58,34,17,27,17,0.97093,0.98189,0.9722,0.09759,0.06639,0.08508,0.95361,0.96533,0.9541
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_3,4",7,ODD,2048,49,59,42,30,36,23,0.94657,0.59203,0.95366,0.1176,0.52532,0.12406,0.95166,0.8418,0.96777
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_4,4",8,EVEN,2048,62,112,56,44,57,35,0.94204,0.84773,0.93709,0.12027,0.26895,0.13404,0.9624,0.91211,0.95557
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_4,5",9,ODD,2048,72,167,65,48,89,41,0.89672,0.82275,0.90082,0.17253,0.25543,0.16488,0.94189,0.89404,0.93896
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_5,5",10,EVEN,2048,94,168,67,69,133,50,0.85473,0.76055,0.8622,0.21205,0.32392,0.21282,0.95508,0.92383,0.95752
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_5,6",11,ODD,2048,104,149,73,78,144,65,0.81704,0.74183,0.81283,0.22946,0.31427,0.24256,0.96094,0.93213,0.94629
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_6,6",12,EVEN,2048,107,224,76,84,199,71,0.72332,0.62927,0.74913,0.31769,0.42178,0.30134,0.92578,0.91797,0.94873
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,bipartite,"Bipartite K_6,7",13,ODD,2048,112,239,82,102,230,83,0.64104,0.52935,0.68576,0.38454,0.4877,0.34096,0.91748,0.88477,0.93652
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,5,ODD,2048,78,93,78,23,26,23,0.98581,0.78988,0.99007,0.07695,0.34283,0.0641,0.79736,0.55469,0.78809
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,6,EVEN,2048,102,112,82,31,43,26,0.98175,0.73704,0.98734,0.11026,0.40732,0.08514,0.81836,0.49561,0.82568
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,7,ODD,2048,106,161,88,36,56,37,0.96879,0.84936,0.97708,0.12419,0.29473,0.09919,0.7998,0.64502,0.8252
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,8,EVEN,2048,121,178,111,42,61,45,0.933,0.88842,0.93532,0.17858,0.23672,0.17107,0.80615,0.75098,0.80322
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,9,ODD,2048,155,204,133,56,80,56,0.86193,0.7903,0.89593,0.26219,0.33784,0.22018,0.72754,0.65234,0.77686
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,10,EVEN,2048,161,184,142,53,55,55,0.78346,0.79309,0.79573,0.30651,0.3016,0.30302,0.80566,0.80273,0.7959
+Pillar1_OddEven_Sweep,dbc9plgc77vs7385qqm0,ibm_kingston,qaoa_bounded,QAOA MaxCut Bounded-ZZ,11,ODD,2048,166,202,166,53,53,53,0.62153,0.45154,0.62594,0.41844,0.56409,0.41044,0.74463,0.62305,0.78125
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,dense,Dense All-to-All (K_9),9,ODD,2048,138,165,109,82,123,74,0.76853,0.66519,0.80029,0.29448,0.41152,0.27438,0.81836,0.73975,0.84814
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,star,Star Graph (Hub Stress),9,ODD,2048,75,99,69,30,31,30,0.806,0.37047,0.74098,0.19385,0.62842,0.25879,0.80615,0.37158,0.74121
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,bipartite,"Bipartite Asymmetric (K_4,5)",9,ODD,2048,72,167,65,48,89,41,0.82372,0.30641,0.85216,0.27938,0.71919,0.23805,0.88379,0.72949,0.91699
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,sparse,Sparse Periodic Odd Ring,9,ODD,2048,86,102,94,27,33,37,0.94047,0.80531,0.92014,0.14446,0.34544,0.17109,0.9917,0.98633,0.97998
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,grid2d,2D Lattice Ising Trotter,9,ODD,2048,75,119,75,41,51,41,0.92439,0.78756,0.92575,0.17319,0.39229,0.17193,0.98242,0.94922,0.98193
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,qft,Quantum Fourier Transform,9,ODD,2048,176,324,247,87,106,86,0.90867,0.89526,0.81838,0.20703,0.23193,0.30518,0.50781,0.5249,0.50293
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,iqft,Inverse QFT,9,ODD,2048,205,266,183,85,142,82,0.80457,0.74886,0.84531,0.32866,0.3887,0.28028,0.85352,0.78027,0.86426
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,grover,Grover Diffusion & Oracle,9,ODD,2048,163,244,162,52,83,52,0.8848,0.81926,0.86462,0.25139,0.3223,0.27928,0.59033,0.50439,0.55127
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,bv,Bernstein-Vazirani Oracle,9,ODD,2048,36,67,32,15,23,13,0.81284,0.04051,0.81861,0.18701,0.95947,0.18115,0.98047,0.92529,0.97412
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,qaoa,QAOA MaxCut (3-Regular),9,ODD,2048,158,187,184,47,51,49,0.88489,0.88232,0.82922,0.23008,0.23006,0.29272,0.86865,0.84766,0.83691
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,qaoa_bounded,QAOA MaxCut (Bounded-ZZ),9,ODD,2048,155,204,133,56,80,56,0.83478,0.74303,0.87762,0.29995,0.38737,0.22678,0.67383,0.57812,0.74268
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,vqe,VQE Hardware-Efficient (SU2),9,ODD,2048,123,146,130,49,45,59,0.86372,0.702,0.85229,0.24776,0.41887,0.27796,0.8501,0.76123,0.80176
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,qv,Quantum Volume (Odd Brickwall),9,ODD,2048,44,52,44,32,32,32,0.91049,0.84386,0.91473,0.17701,0.29086,0.17599,0.93506,0.92676,0.95264
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,ghz,GHZ Multipartite Cascade,9,ODD,2048,28,36,28,8,8,8,0.86306,0.49405,0.86478,0.13672,0.50195,0.1333,0.86328,0.49805,0.8667
+Experiment2_15Family_Odd9Q,dbcasi9gv2cc73e9v40g,ibm_fez,wstate,W-State Excitation Cascade,9,ODD,2048,55,47,54,16,16,16,0.78227,0.52526,0.79524,0.21878,0.47458,0.20532,0.8418,0.70068,0.84766
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,dense,Dense All-to-All (K_9),9,ODD,2048,138,165,118,82,123,76,0.64714,0.60958,0.64018,0.44964,0.45838,0.46189,0.73389,0.74951,0.77051
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,star,Star Graph (Hub Stress),9,ODD,2048,72,99,80,30,31,28,0.50444,0.5889,0.63589,0.49365,0.40771,0.35645,0.50635,0.59229,0.64355
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,bipartite,"Bipartite Asymmetric (K_4,5)",9,ODD,2048,72,167,65,48,89,41,0.73491,0.73296,0.74519,0.36953,0.39199,0.36711,0.83398,0.8667,0.83398
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,sparse,Sparse Periodic Odd Ring,9,ODD,2048,86,102,100,27,33,41,0.89797,0.88743,0.91046,0.2411,0.26243,0.19683,0.99316,0.98633,0.98438
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,grid2d,2D Lattice Ising Trotter,9,ODD,2048,79,119,77,41,51,40,0.89044,0.87476,0.89682,0.24046,0.27022,0.2303,0.979,0.96777,0.97363
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,qft,Quantum Fourier Transform,9,ODD,2048,177,324,238,87,106,85,0.88221,0.73066,0.90323,0.24707,0.37549,0.2207,0.48193,0.51562,0.49707
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,iqft,Inverse QFT,9,ODD,2048,204,266,177,85,142,82,0.7191,0.47791,0.81825,0.40114,0.59914,0.2942,0.77246,0.54736,0.85156
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,grover,Grover Diffusion & Oracle,9,ODD,2048,163,244,163,52,83,52,0.83426,0.78578,0.83913,0.30476,0.33739,0.30816,0.49023,0.49268,0.4917
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,bv,Bernstein-Vazirani Oracle,9,ODD,2048,36,67,56,15,23,19,0.71411,0.50634,0.51065,0.28271,0.49365,0.48926,0.99023,0.95605,0.90381
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,qaoa,QAOA MaxCut (3-Regular),9,ODD,2048,160,187,162,47,51,49,0.8124,0.87264,0.89196,0.31746,0.24988,0.2193,0.77051,0.84668,0.81592
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,qaoa_bounded,QAOA MaxCut (Bounded-ZZ),9,ODD,2048,155,204,132,56,80,52,0.86344,0.64908,0.82594,0.25898,0.46594,0.30784,0.71045,0.55469,0.65039
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,vqe,VQE Hardware-Efficient (SU2),9,ODD,2048,123,146,92,49,45,36,0.84101,0.80597,0.8565,0.28967,0.31121,0.27769,0.80811,0.82471,0.83545
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,qv,Quantum Volume (Odd Brickwall),9,ODD,2048,44,52,44,32,32,32,0.86621,0.5746,0.86741,0.2292,0.56882,0.22623,0.92676,0.87793,0.93604
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,ghz,GHZ Multipartite Cascade,9,ODD,2048,28,36,28,8,8,8,0.72558,0.16008,0.71141,0.27441,0.83447,0.28857,0.72559,0.16553,0.71143
+Experiment2_15Family_Odd9Q,dbcacds24mrc73cj776g,ibm_marrakesh,wstate,W-State Excitation Cascade,9,ODD,2048,54,47,53,16,16,16,0.60962,0.1772,0.60519,0.39086,0.82242,0.39456,0.75684,0.52051,0.75146
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,dense,Dense All-to-All (K_9),9,ODD,2048,138,165,109,82,123,74,0.79836,0.77096,0.83747,0.26826,0.31958,0.21899,0.83789,0.83105,0.87793
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,star,Star Graph (Hub Stress),9,ODD,2048,75,99,77,30,31,21,0.68402,0.73839,0.76927,0.30469,0.26123,0.22607,0.69531,0.73877,0.77393
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,bipartite,"Bipartite Asymmetric (K_4,5)",9,ODD,2048,72,167,63,48,89,43,0.88624,0.84153,0.89822,0.19767,0.23768,0.1685,0.93799,0.90527,0.94531
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,sparse,Sparse Periodic Odd Ring,9,ODD,2048,86,102,95,27,33,37,0.94304,0.93699,0.87194,0.13951,0.1512,0.23968,0.98633,0.99219,0.97656
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,grid2d,2D Lattice Ising Trotter,9,ODD,2048,76,119,91,41,51,42,0.93911,0.91078,0.93334,0.12932,0.18713,0.16275,0.98584,0.9707,0.98193
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,qft,Quantum Fourier Transform,9,ODD,2048,176,324,234,87,106,82,0.90932,0.84172,0.9062,0.21338,0.2793,0.21484,0.51074,0.51221,0.48779
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,iqft,Inverse QFT,9,ODD,2048,207,266,181,85,142,82,0.91068,0.85654,0.8632,0.19677,0.25945,0.25396,0.92285,0.85645,0.90283
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,grover,Grover Diffusion & Oracle,9,ODD,2048,165,244,165,52,83,52,0.90719,0.85749,0.83916,0.2182,0.28025,0.28701,0.62598,0.54346,0.58838
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,bv,Bernstein-Vazirani Oracle,9,ODD,2048,36,67,32,15,23,13,0.81989,0.69774,0.849,0.17969,0.30225,0.15088,0.98828,0.9707,0.99268
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,qaoa,QAOA MaxCut (3-Regular),9,ODD,2048,158,187,184,47,51,49,0.90219,0.85745,0.81512,0.19482,0.2638,0.31339,0.88086,0.80371,0.84229
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,qaoa_bounded,QAOA MaxCut (Bounded-ZZ),9,ODD,2048,155,204,132,56,80,52,0.79645,0.79835,0.89482,0.336,0.3287,0.2182,0.67578,0.64893,0.77686
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,vqe,VQE Hardware-Efficient (SU2),9,ODD,2048,121,146,138,49,45,57,0.78448,0.86939,0.88917,0.31513,0.24924,0.21504,0.74951,0.85596,0.8833
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,qv,Quantum Volume (Odd Brickwall),9,ODD,2048,44,52,44,32,32,32,0.88869,0.89323,0.9032,0.20372,0.20461,0.18192,0.94043,0.93262,0.9541
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,ghz,GHZ Multipartite Cascade,9,ODD,2048,28,36,28,8,8,8,0.88366,0.68837,0.86666,0.11523,0.31055,0.12891,0.88477,0.68945,0.87109
+Experiment2_15Family_Odd9Q,dbcameni0auc73dui3f0,ibm_kingston,wstate,W-State Excitation Cascade,9,ODD,2048,52,47,52,16,16,16,0.84173,0.73747,0.85076,0.18316,0.27342,0.17753,0.89062,0.82959,0.8999
